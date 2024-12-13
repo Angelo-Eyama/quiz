@@ -1,0 +1,1962 @@
+{
+    "preguntas": [
+        {
+            "enunciado": "Unas de estas opciones NO es un tipo de Sistema Operativo",
+            "opciones": [
+                {
+                    "texto": "Distribuido",
+                    "correcta": false
+                },
+                {
+                    "texto": "En red",
+                    "correcta": false
+                },
+                {
+                    "texto": "Monolítico",
+                    "correcta": true
+                },
+                {
+                    "texto": "Por lotes",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "A qué tipo de sistema Operativo se refiere la siguiente definición: \"El tiempo asignado para el cambio de tareas es muy inferior, unos 3 microsegundos\".",
+            "opciones": [
+                {
+                    "texto": "S.O. en Tiempo Real",
+                    "correcta": true
+                },
+                {
+                    "texto": "S.O. Distribuido",
+                    "correcta": false
+                },
+                {
+                    "texto": "S.O. en Red",
+                    "correcta": false
+                },
+                {
+                    "texto": "S.O. por Lotes",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Cuál es la función principal de un Sistema Operativo?",
+            "opciones": [
+                {
+                    "texto": "Ejecutar aplicaciones de ofimática y diseño gráfico",
+                    "correcta": false
+                },
+                {
+                    "texto": "Almacenar y organizar archivos en la nube",
+                    "correcta": false
+                },
+                {
+                    "texto": "Controlar y coordinar el uso del hardware entre programas y usuarios",
+                    "correcta": true
+                },
+                {
+                    "texto": "Proteger el equipo contra virus y malware",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes opciones NO es una tarea típica de un Sistema Operativo?",
+            "opciones": [
+                {
+                    "texto": "Realizar la interfaz sistema-usuario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Compartir los recursos de Hardware entre los usuarios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Llevar el control sobre el uso de recursos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Diseñar aplicaciones de software personalizadas",
+                    "correcta": true
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "La definición \"Varias tareas se pueden ejecutar al  mismo tiempo\" corresponde a:",
+            "opciones": [
+                {
+                    "texto": "S.O. Multitarea",
+                    "correcta": true
+                },
+                {
+                    "texto": "S.O. Distribuidos",
+                    "correcta": false
+                },
+                {
+                    "texto": "S.O. por Lotes",
+                    "correcta": false
+                },
+                {
+                    "texto": "S.O. en Red",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué servicio de Windows Server se utiliza para la gestión de usuarios y equipos a través de directivas?",
+            "opciones": [
+                {
+                    "texto": "IIS",
+                    "correcta": false
+                },
+                {
+                    "texto": "SQL Server",
+                    "correcta": false
+                },
+                {
+                    "texto": "Active Directory",
+                    "correcta": true
+                },
+                {
+                    "texto": "Azure",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Qué tipo de relación de confianza en Active Directory se establece entre dos dominios diferentes en el mismo bosque y es bidireccional y transitiva?",
+            "opciones": [
+                {
+                    "texto": "Raíz de árbol",
+                    "correcta": true
+                },
+                {
+                    "texto": "Externa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Principal-Secundario",
+                    "correcta": false
+                },
+                {
+                    "texto": "De bosque",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Cuál es el propósito principal de un controlador de dominio en Windows Server?",
+            "opciones": [
+                {
+                    "texto": "Administrar el almacenamiento de datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Controlar el acceso a los recursos del servidor",
+                    "correcta": false
+                },
+                {
+                    "texto": "Almacenar la base de datos de Active Directory y gestionar la autenticación",
+                    "correcta": true
+                },
+                {
+                    "texto": "Configurar máquinas virtuales en Azure",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Cuál es la principal ventaja de la estructura lógica de Active Directory?",
+            "opciones": [
+                {
+                    "texto": "Permite la administración de recursos sin importar su ubicación física",
+                    "correcta": true
+                },
+                {
+                    "texto": "Asegura la replicación de datos entre todos los dominios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ofrece un almacenamiento local para cada usuario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Facilita la conexión a bases de datos externas",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Cuál es el rol de un \"Maestro de Esquema\" en un bosque de Active Directory?",
+            "opciones": [
+                {
+                    "texto": "Gestionar los identificadores de seguridad únicos (SID )",
+                    "correcta": false
+                },
+                {
+                    "texto": "Mantener la lista de objetos eliminados",
+                    "correcta": false
+                },
+                {
+                    "texto": "Garantizar que todos los objetos se definan de la misma manera",
+                    "correcta": true
+                },
+                {
+                    "texto": "Realizar la replicación entre controladores de dominio",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Cuál es la función principal de Active Directory (AD )?",
+            "opciones": [
+                {
+                    "texto": "Configurar el hardware del servidor",
+                    "correcta": false
+                },
+                {
+                    "texto": "Gestionar los recursos compartidos de la red y las cuentas de usuario",
+                    "correcta": true
+                },
+                {
+                    "texto": "Monitorear el rendimiento de las aplicaciones",
+                    "correcta": false
+                },
+                {
+                    "texto": "Proteger las bases de datos contra accesos no autorizados",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Qué tecnología permite la autenticación de usuarios en Windows",
+            "opciones": [
+                {
+                    "texto": "Active Directory Domain Services",
+                    "correcta": false
+                },
+                {
+                    "texto": "Active Directory Federation Services",
+                    "correcta": true
+                },
+                {
+                    "texto": "Server Message Block",
+                    "correcta": false
+                },
+                {
+                    "texto": "Réplicas de almacenamiento",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "Qué rol tiene el maestro de esquema en un controlador de dominio?",
+            "opciones": [
+                {
+                    "texto": "Garantizar que todos los nombres de los objetos sean únicos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Contener la copia maestra del esquema utilizado por todos los controladores del dominio",
+                    "correcta": true
+                },
+                {
+                    "texto": "Gestionar las referencias de objetos en otros dominios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Configurar políticas de seguridad para usuarios y máquinas",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "Qué característica distingue un dominio de un grupo de trabajo en",
+            "opciones": [
+                {
+                    "texto": "Todos los equipos deben estar en la misma subred",
+                    "correcta": false
+                },
+                {
+                    "texto": "No es posible compartir recursos entre máquinas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Permite iniciar sesión en cualquier equipo del dominio con una sola cuenta",
+                    "correcta": true
+                },
+                {
+                    "texto": "Limita el número máximo de equipos a 20",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Qué tecnología de replicación utiliza Active Directory?",
+            "opciones": [
+                {
+                    "texto": "Copias de seguridad manuales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Replicación unidireccional entre controladores",
+                    "correcta": false
+                },
+                {
+                    "texto": "Solicitudes de replicación automáticas cada 15 segundos",
+                    "correcta": true
+                },
+                {
+                    "texto": "Replicación simultánea de todos los controladores de todos los dominios",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Qué ofrece Active Directory Domain Service?",
+            "opciones": [
+                {
+                    "texto": ". Métodos para almacenar los datos de directorio y hacer que estos datos estén disponibles.",
+                    "correcta": true
+                },
+                {
+                    "texto": ". Resetear todos los equipos de un dominio.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Acceder remotamente a todos los equipos de una subred.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Configurar el servidor de la red.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Cuál es la unidad más pequeña presente en la estructura lógica de Active Directory?.",
+            "opciones": [
+                {
+                    "texto": ". Dominio.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Unidad Organizativa.",
+                    "correcta": true
+                },
+                {
+                    "texto": ". Bosque.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Árbol.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes NO es una unidad de replicación del Controlador de Dominio?",
+            "opciones": [
+                {
+                    "texto": ". Esquema.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Configuración.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Diagrama de uso.",
+                    "correcta": true
+                },
+                {
+                    "texto": ". Dominio.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "Selecciona la afirmación correcta.",
+            "opciones": [
+                {
+                    "texto": ". El maestro de infraestructura asegura que todos los nombres de los objetos sean únicos.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Pueden existir varios maestros de nombres de dominio por bosque.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". El resto de roles dependen del maestro del identificador relativo.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Solo existe un maestro de esquema por bosque.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "Seleccione la afirmación falsa en relación a la replicación.",
+            "opciones": [
+                {
+                    "texto": ". La replicación está limitada por el bosque.",
+                    "correcta": true
+                },
+                {
+                    "texto": ". La replicación está limitada por el dominio.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Cada controlador cuenta con una copia actualizada de la base de datos.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Todos los controladores de dominio son iguales.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Cuál de estos NO es un sistema de ficheros?",
+            "opciones": [
+                {
+                    "texto": "ext2",
+                    "correcta": false
+                },
+                {
+                    "texto": "ext4",
+                    "correcta": false
+                },
+                {
+                    "texto": "ReiserFS",
+                    "correcta": false
+                },
+                {
+                    "texto": "DataFS",
+                    "correcta": true
+                }
+            ],
+            "tema": "Linux"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes NO es una característica típica de un sistema operativo?",
+            "opciones": [
+                {
+                    "texto": "Permite personalizar la interfaz de usuario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Garantiza un avanzado nivel de seguridad",
+                    "correcta": false
+                },
+                {
+                    "texto": "Favorece el trabajo en modo multiusuario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Requiere actualizaciones obligatorias desde un servidor central",
+                    "correcta": true
+                }
+            ],
+            "tema": "Linux"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes NO es una característica del usuario root en un sistema operativo Linux?",
+            "opciones": [
+                {
+                    "texto": "Su UID (User ID ) es 0 (cero).",
+                    "correcta": false
+                },
+                {
+                    "texto": "Puede modificar o reconfigurar el kernel, controladores, etc.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Solo tiene acceso a los archivos y directorios propios.",
+                    "correcta": true
+                },
+                {
+                    "texto": "También llamado superusuario o administrador.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Linux"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes es una característica falsa sobre los usuarios normales en Linux?",
+            "opciones": [
+                {
+                    "texto": "Cada usuario dispone de un directorio de trabajo, ubicado generalmente en /home.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cada usuario puede personalizar su entorno de trabajo.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Pueden modificar el kernel del sistema sin restricciones",
+                    "correcta": true
+                },
+                {
+                    "texto": "Por seguridad, es siempre mejor trabajar como un usuario normal en vez del usuario root, y cuando se requiera hacer uso de comandos solo de root, utilizar el comando su.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Linux"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes comandos NO es un comando de administración de usuarios en Linux?",
+            "opciones": [
+                {
+                    "texto": "Useradd",
+                    "correcta": false
+                },
+                {
+                    "texto": "Usermod",
+                    "correcta": false
+                },
+                {
+                    "texto": "Groupadd",
+                    "correcta": false
+                },
+                {
+                    "texto": "ls",
+                    "correcta": true
+                }
+            ],
+            "tema": "Linux"
+        },
+        {
+            "enunciado": "COMPLETA: La clase ____  de direcciones IP se aplica en redes pequeñas:",
+            "opciones": [
+                {
+                    "texto": "B",
+                    "correcta": false
+                },
+                {
+                    "texto": "C",
+                    "correcta": true
+                },
+                {
+                    "texto": "A",
+                    "correcta": false
+                },
+                {
+                    "texto": "E",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "Las direcciones IPv4 Broadcast:",
+            "opciones": [
+                {
+                    "texto": "Sirven para enviar IP_PDUs a todos los dispositivos de una red lógica.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Sirven para enviar IP_PDUs a un grupo de dispositivos de la misma o diferente red lógica.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Sirven para enviar IP_PDUs a un único destino.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Sirven para enviar IP_PDUs a todos los dispositivos de direcciones pertenecientes a la clase A.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "COMPLETA: El comando ____ de Linux sirve para saber la dirección IP del host al que queremos llegar:",
+            "opciones": [
+                {
+                    "texto": "MTR",
+                    "correcta": false
+                },
+                {
+                    "texto": "PING",
+                    "correcta": false
+                },
+                {
+                    "texto": "DIG",
+                    "correcta": false
+                },
+                {
+                    "texto": "NSLOOKUP",
+                    "correcta": true
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes aplicaciones puede usar el protocolo de transporte UDP?",
+            "opciones": [
+                {
+                    "texto": "Acceso remoto a un terminal",
+                    "correcta": false
+                },
+                {
+                    "texto": "Transferencia de archivos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Correo electrónico",
+                    "correcta": false
+                },
+                {
+                    "texto": "Telefonía por internet",
+                    "correcta": true
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes es un medio de transmisión de datos NO guiado?",
+            "opciones": [
+                {
+                    "texto": "Cable de fibra óptica",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cable coaxial",
+                    "correcta": false
+                },
+                {
+                    "texto": "Satélite",
+                    "correcta": true
+                },
+                {
+                    "texto": "Par trenzado",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "¿Cuáles son los tres tipos de direcciones IPv4?",
+            "opciones": [
+                {
+                    "texto": "Unicast, Broadcast, Multicast",
+                    "correcta": true
+                },
+                {
+                    "texto": "Unicast, Podcast, Multicast",
+                    "correcta": false
+                },
+                {
+                    "texto": "University, Podcast, Multicast",
+                    "correcta": false
+                },
+                {
+                    "texto": "Solo Unicast",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "¿Qué es una dirección MAC?",
+            "opciones": [
+                {
+                    "texto": "La dirección MAC (Media Access Control) es un identificador único que cada fabricante le asigna a la tarjeta de red de sus dispositivos conectados.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Es la abreviatura del McDonald’s",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es la abreviatura de los portátiles de Apple",
+                    "correcta": false
+                },
+                {
+                    "texto": "No existe",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "¿Cuáles son medios de transporte guiados?",
+            "opciones": [
+                {
+                    "texto": "Par trenzado, Cable coaxial, Cable de fibra óptica",
+                    "correcta": true
+                },
+                {
+                    "texto": "Transporte público",
+                    "correcta": false
+                },
+                {
+                    "texto": "Coches",
+                    "correcta": false
+                },
+                {
+                    "texto": "WLAN",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "¿Cuáles son medios de transporte no guiados?",
+            "opciones": [
+                {
+                    "texto": "Microondas terrestres, WLAN, Áreas extensas y satélites",
+                    "correcta": true
+                },
+                {
+                    "texto": "Cable de fibra óptica",
+                    "correcta": false
+                },
+                {
+                    "texto": "Vehículos autónomos",
+                    "correcta": false
+                },
+                {
+                    "texto": "No existen",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "¿Cuáles son arquitecturas en red?",
+            "opciones": [
+                {
+                    "texto": "Arquitecturas TCP/IP y OSI",
+                    "correcta": true
+                },
+                {
+                    "texto": "Arquitectura romana",
+                    "correcta": false
+                },
+                {
+                    "texto": "Arquitectura renacentista",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ninguna de las anteriores",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "Cual NO es una topología de una red",
+            "opciones": [
+                {
+                    "texto": "Estrella",
+                    "correcta": false
+                },
+                {
+                    "texto": "Mixta",
+                    "correcta": false
+                },
+                {
+                    "texto": "Protocolo",
+                    "correcta": true
+                },
+                {
+                    "texto": "Malla",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "Cual de estos es un medio de transmisión guiado:",
+            "opciones": [
+                {
+                    "texto": "WLAN",
+                    "correcta": false
+                },
+                {
+                    "texto": "Par trenzado",
+                    "correcta": true
+                },
+                {
+                    "texto": "Microondas terrestre",
+                    "correcta": false
+                },
+                {
+                    "texto": "Satélite",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "Indica la respuesta verdadera sobre Dirección MAC",
+            "opciones": [
+                {
+                    "texto": "Están formadas por 48 bits y generalmente se representan en formato hexadecimal.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Son direcciones que cambian cada vez que el dispositivo se conecta a una red.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas las direcciones MAC son idénticas para dispositivos del mismo fabricante.",
+                    "correcta": true
+                },
+                {
+                    "texto": "No se pueden utilizar para controlar el acceso a redes.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "Indica la respuesta falsa:",
+            "opciones": [
+                {
+                    "texto": "Existen tres tipos de direcciones IPv4: Unicast, Broadcast, Multicast",
+                    "correcta": false
+                },
+                {
+                    "texto": "Multicast sirve para enviar datos a grupo de dispositivos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Broadcast sirve para enviar datos a un único destino",
+                    "correcta": true
+                },
+                {
+                    "texto": "Unicast sirve para enviar datos a un único destino",
+                    "correcta": false
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "Indica la opción que NO se corresponda con la arquitectura de red TCP/IP",
+            "opciones": [
+                {
+                    "texto": "Es la usada en Internet",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se compone de cinco capas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Describe funciones, servicios y protocolos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Estándar ISO",
+                    "correcta": true
+                }
+            ],
+            "tema": "Redes"
+        },
+        {
+            "enunciado": "¿De qué tipo puede ser una ERP?",
+            "opciones": [
+                {
+                    "texto": "Vertical y Recursiva",
+                    "correcta": false
+                },
+                {
+                    "texto": "Vertical y Transversal",
+                    "correcta": false
+                },
+                {
+                    "texto": "Horizontal o Vertical",
+                    "correcta": true
+                },
+                {
+                    "texto": "Administrativa o de Sistemas",
+                    "correcta": false
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "Un sistema ERP",
+            "opciones": [
+                {
+                    "texto": "Son sistemas de información gerenciales que integran y manejan operaciones de producción y aspectos de distribución de una empresa",
+                    "correcta": true
+                },
+                {
+                    "texto": "Es un sistema que exclusivamente gestiona las redes sociales de una empresa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es una herramienta para el diseño gráfico de productos y empaques",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es un sistema usado para enviar y gestionar correos masivos a clientes y proveedores",
+                    "correcta": false
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "Entre los objetivos de un sistema ERP se encuentran",
+            "opciones": [
+                {
+                    "texto": "Optimización de Procesos Empresariales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Acceso a la información",
+                    "correcta": false
+                },
+                {
+                    "texto": "Eliminación de datos y operaciones innecesarias de reingeniería",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "La modularidad de una ERP se basa en",
+            "opciones": [
+                {
+                    "texto": "Entender que una empresa es un conjunto de departamentos interrelacionados",
+                    "correcta": true
+                },
+                {
+                    "texto": "Configurar mediante desarrollo de código el control de inventarios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ambas son falsas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ambas son correctas",
+                    "correcta": false
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "Entre las desventajas de un sistema ERP encontramos",
+            "opciones": [
+                {
+                    "texto": "La instalación de un sistema ERP es muy barata",
+                    "correcta": false
+                },
+                {
+                    "texto": "La compatibilidad entre sistemas se realiza con programas externos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los sistemas pueden presentar problemas de “cuellos de botella”, generando que la ineficiencia de un departamento o de un empleado, repercuta en toda la empresa",
+                    "correcta": true
+                },
+                {
+                    "texto": "Presentará más resistencia al compartir información",
+                    "correcta": false
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "Un ERP es",
+            "opciones": [
+                {
+                    "texto": "Un sistema de información gerencial que integra y maneja muchos de los negocios asociados con las operaciones de producción y de los aspectos de distribución de una compañía",
+                    "correcta": true
+                },
+                {
+                    "texto": "Sistema informático que asiste en la producción de materias para la empresa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Sistema de medición de las distancias recorridas por los vehículos que maneja una empresa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una estrategia de negocio enfocada al cliente, en la que el objetivo es reunir la mayor cantidad de información posible de los clientes para generar relaciones de confianza a largo plazo.",
+                    "correcta": false
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "El software de una ERP ¿en que áreas del negocio interviene?",
+            "opciones": [
+                {
+                    "texto": "Solamente maneja la producción, logística, distribución, inventario, envíos, facturas y contabilidad",
+                    "correcta": false
+                },
+                {
+                    "texto": "Maneja muchas actividades de negocios como ventas, producción, administración de inventarios, calidad de administración y la administración de recursos humanos.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Solamente maneja al personal e inventario.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Maneja la página web de la empresa, permitiendo modificarla de manera dinámica",
+                    "correcta": false
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "¿Cuáles son los tipos principales de ERP?",
+            "opciones": [
+                {
+                    "texto": "Diagonales y rectos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Verticales y diagonales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Rectos y horizontales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Verticales y horizontales",
+                    "correcta": true
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "Una de las características principales de los ERPs es ser",
+            "opciones": [
+                {
+                    "texto": "Modulares (la funcionalidad se encuentra dividida en módulos) y configurables (pueden ser modificados mediante desarrollos en el código del software)",
+                    "correcta": true
+                },
+                {
+                    "texto": "Solamente modulares",
+                    "correcta": false
+                },
+                {
+                    "texto": "Solamente configurables",
+                    "correcta": false
+                },
+                {
+                    "texto": "Baratos, no cuesta nada implementarlos, e iterativos, mejoran cada año que se usan en la empresa",
+                    "correcta": false
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "Los objetivos principales de un ERP se tratan de",
+            "opciones": [
+                {
+                    "texto": "Privatización de la información de los empleados, optimización de procesos e integración de procesos extras en todos las partes de la empresa.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Optimización de los procesos empresariales, acceso a la información, posibilidad de compartir información entre todos los componentes de la organización y eliminación de datos y operaciones innecesarias de reingeniería.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Optimización de los procesos empresariales, integración de procesos extras en todos las partes de la empresa, borrar toda la información previa de la empresa.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Eliminación de datos y operaciones innecesarias de reingeniería, optimización de los procesos empresariales, privatización de la información de los empleados y configuración de nuevos y viejos procesos para la modernización total de la empresa.",
+                    "correcta": false
+                }
+            ],
+            "tema": "ERP"
+        },
+        {
+            "enunciado": "¿Cuál es el principal objetivo de un CRM?",
+            "opciones": [
+                {
+                    "texto": "Automatizar procesos financieros.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Incrementar la cantidad de ventas sin importar la relación con el cliente.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Reunir información de los clientes para generar relaciones de confianza a largo plazo.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Sustituir las estrategias de marketing digital.",
+                    "correcta": false
+                }
+            ],
+            "tema": "CRM"
+        },
+        {
+            "enunciado": "¿Qué componente NO forma parte de un CRM según Barton Goldenberg?",
+            "opciones": [
+                {
+                    "texto": "Funcionalidad de ventas y su administración.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Gestión de recursos humanos (HR).",
+                    "correcta": true
+                },
+                {
+                    "texto": "Integración del ERP.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Sincronización de datos.",
+                    "correcta": false
+                }
+            ],
+            "tema": "CRM"
+        },
+        {
+            "enunciado": "¿Cuál es una característica distintiva del CRM Social respecto al CRM tradicional?",
+            "opciones": [
+                {
+                    "texto": "Mayor enfoque en la gestión de inventarios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Incorporación de interacción y conversación con los clientes a través de redes sociales.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Exclusivo para grandes empresas.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Automatización completa de los procesos de ventas.",
+                    "correcta": false
+                }
+            ],
+            "tema": "CRM"
+        },
+        {
+            "enunciado": "Según Janice Anderson, ¿cuál es un beneficio clave de utilizar un CRM?",
+            "opciones": [
+                {
+                    "texto": "Reducir la importancia del cliente en la estrategia de negocios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Desconectar a los clientes de las redes sociales.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Incrementar el gasto de los clientes al estar más atentos a sus necesidades.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Implementar estrategias de marketing menos personalizadas.",
+                    "correcta": false
+                }
+            ],
+            "tema": "CRM"
+        },
+        {
+            "enunciado": "¿Qué es un CRM?",
+            "opciones": [
+                {
+                    "texto": "Es una estrategia de negocios que surge de la filosofía del cliente como ente de principal valor en ámbito comercial.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Es una estrategia de negocios que surge de la filosofía del ordenador como ente de principal valor en ámbito comercial.",
+                    "correcta": false
+                },
+                {
+                    "texto": "No es una estrategia de negocios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ninguna es correcta.",
+                    "correcta": false
+                }
+            ],
+            "tema": "CRM"
+        },
+        {
+            "enunciado": "¿Cuantos son los factores clave para una implementación exitosa de un CRM según Barton Goldenberg?",
+            "opciones": [
+                {
+                    "texto": "25",
+                    "correcta": false
+                },
+                {
+                    "texto": "10",
+                    "correcta": true
+                },
+                {
+                    "texto": "7",
+                    "correcta": false
+                },
+                {
+                    "texto": "3",
+                    "correcta": false
+                }
+            ],
+            "tema": "CRM"
+        },
+        {
+            "enunciado": "¿Qué papel juegan las redes sociales en el CRM y en el Social CRM?",
+            "opciones": [
+                {
+                    "texto": "La opinión no importa y no afecta la imagen de la marca.",
+                    "correcta": false
+                },
+                {
+                    "texto": "La opinión se multiplica de forma viral y afecta significativamente la imagen de la marca.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Afecta levemente a la imagen de la marca.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las redes sociales no interfieren con los CRM o CRM social.",
+                    "correcta": false
+                }
+            ],
+            "tema": "CRM"
+        },
+        {
+            "enunciado": "De las siguientes respuestas, indique la que no es una utilidad de un CRM:",
+            "opciones": [
+                {
+                    "texto": "Conexión constante con el cliente.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Seguimiento personalizado de cada cliente.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se les provee de información y soporte, se les avisa de nuevas activaciones y propuestas, y se les recompensa por producir contenido positivo.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Gestión directa de la producción o el control de inventarios.",
+                    "correcta": true
+                }
+            ],
+            "tema": "CRM"
+        },
+        {
+            "enunciado": "¿Por qué es importante involucrar a los usuarios en la construcción del sistema CRM?",
+            "opciones": [
+                {
+                    "texto": "Para garantizar que el sistema CRM sea personalizado.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Para reducir los costos de implementación.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Para eliminar la necesidad de capacitación en el sistema.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Para asegurarse de que todos los empleados de la empresa se conviertan en expertos en programación y diseño de sistemas CRM.",
+                    "correcta": false
+                }
+            ],
+            "tema": "CRM"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes es una herramienta para administración remota?",
+            "opciones": [
+                {
+                    "texto": "GoToMyPC.",
+                    "correcta": false
+                },
+                {
+                    "texto": "TeamViewer.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Chrome Remote Desktop.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas las anteriores son correctas.",
+                    "correcta": true
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "¿Qué característica es fundamental para implementar un Sistema Reseller en un panel de control?",
+            "opciones": [
+                {
+                    "texto": "Instalación de software adicional.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Gestión de accesos SSH y DNS.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Creación de una estructura de permisos y accesos para clientes.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Configuración de autorespondedores y antispam.",
+                    "correcta": false
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes tareas corresponde a la configuración de dominios en un panel de control?",
+            "opciones": [
+                {
+                    "texto": "Redireccionamientos.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Completa gestión de usuarios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cuentas de correo.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Reiniciar/apagar el servidor.",
+                    "correcta": false
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes tareas corresponde a la configuración a nivel de servidor en un panel de control?",
+            "opciones": [
+                {
+                    "texto": "Cuentas de correo.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Completa gestión de usuarios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Certificados SSL",
+                    "correcta": false
+                },
+                {
+                    "texto": "Gestión de Ips.",
+                    "correcta": true
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes opciones es un panel de control?",
+            "opciones": [
+                {
+                    "texto": "Notepad++.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Parallels Plesk.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Microsoft Visual Studio.",
+                    "correcta": false
+                },
+                {
+                    "texto": "FileZilla.",
+                    "correcta": false
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "¿Qué es la administración remota de servidores?",
+            "opciones": [
+                {
+                    "texto": "Un método para desinstalar software de forma local.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una funcionalidad de determinado software que permite realizar ciertas acciones desde un equipo local y que estas se ejecuten en un equipo remoto",
+                    "correcta": true
+                },
+                {
+                    "texto": "Un proceso de mantenimiento exclusivo para hardware.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una técnica de programación avanzada para servidores.",
+                    "correcta": false
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes es una herramienta para administración remota?",
+            "opciones": [
+                {
+                    "texto": "Microsoft Word.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Microsoft Remote Desktop.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Adobe Photoshop.",
+                    "correcta": false
+                },
+                {
+                    "texto": "VLC Media Player.",
+                    "correcta": false
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "¿Qué es un panel de control en administración remota?",
+            "opciones": [
+                {
+                    "texto": "Un hardware que conecta servidores.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un antivirus para proteger servidores remotos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un sistema operativo especializado.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Software de gestión que permite registrar un alojamiento web a través de una interfaz gráfica orientada a tareas.",
+                    "correcta": true
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "¿Cuál de estas tareas se puede realizar con un panel de control?",
+            "opciones": [
+                {
+                    "texto": "Configurar dominios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Crear un sistema reseller.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Configuración a nivel de servidor.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son tareas que puede realizar.",
+                    "correcta": true
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes opciones no es un panel de control?",
+            "opciones": [
+                {
+                    "texto": "cPanel & WHM",
+                    "correcta": false
+                },
+                {
+                    "texto": "ISPConfig.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Parallels Plesk.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Google Chrome.",
+                    "correcta": true
+                }
+            ],
+            "tema": "ARS"
+        },
+        {
+            "enunciado": "A la hora de definir las restricciones económicas en la planificación de un proyecto, si no se conoce el montaje económico del que se dispone para la ejecución del proyecto en todas sus fases:",
+            "opciones": [
+                {
+                    "texto": "Se realiza una estimación aproximada basada en proyectos similares.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se establece un mínimo de forma que la planificación se basa en gastar más de dicha cantidad.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se establece un máximo de forma que la planificación se basa en no gastar más de dicha cantidad.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Se pondrá cuando se sepa más adelante en el proyecto.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "En la fase de definición de alcance de proyecto se llevan a cabo las actividades de:",
+            "opciones": [
+                {
+                    "texto": "Lugar de despliegue, tecnología legada y restricciones.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Objetivo final del proyecto, tecnología legada y restricciones.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Objetivos intermedios del proyecto, lugar de despliegue y tecnología legada.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Tecnología legada, lugar de despliegue y objetivo final e intermedios del proyecto.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "¿Cuál no es una de las restricciones típicas a considerar en la definición de restricciones a la hora de planificar un proyecto?",
+            "opciones": [
+                {
+                    "texto": "Recursos económicos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Recursos humanos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Recursos tecnológicos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Recursos de infraestructura.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes metodologías no es una metodología ágil?",
+            "opciones": [
+                {
+                    "texto": "Scrum.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Extreme programming.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cascada.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Crystal Clear.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "La comunicación del riesgo se realiza en la fase de:",
+            "opciones": [
+                {
+                    "texto": "Estudio de viabilidad.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Análisis de riesgo.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Realización de estimaciones.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Definición de restricciones.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "¿Qué promueven los procesos ágiles respecto a los cambios en los requisitos?",
+            "opciones": [
+                {
+                    "texto": "Resistencia a los cambios para evitar retrasos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Aprovechar los cambios como una ventaja competitiva del cliente.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Incluir los cambios solo si ocurren al principio del desarrollo.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Limitar los cambios a una fase específica del proyecto.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "Según XP, ¿qué es clave para el éxito en el desarrollo de software?",
+            "opciones": [
+                {
+                    "texto": "Un enfoque rígido en los requisitos iniciales.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Potenciar las relaciones interpersonales y promover el trabajo en equipo.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Completar el proyecto sin interrupciones del cliente.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Automatizar todo el proceso de desarrollo.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "¿Qué es una historia de usuario en el contexto de XP?",
+            "opciones": [
+                {
+                    "texto": "Un documento técnico que describe la arquitectura del software en conjunto.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una historia narrativa utilizada para capacitar a los programadores .",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una ficha breve que describe características que el sistema debe poseer.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Una descripción técnica detallada de todos los requisitos funcionales.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "¿Cuál es la función principal del gestor (big boss) según la propuesta de Beck?",
+            "opciones": [
+                {
+                    "texto": "Actuar como vínculo entre clientes y programadores, asegurando la coordinación y creando condiciones adecuadas para el trabajo.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Diseñar la arquitectura técnica del sistema y validar las pruebas unitarias del código.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Definir los requisitos funcionales del sistema y asignar tareas específicas a los programadores.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Escribir las historias de usuario y priorizarlas según el valor de negocio del proyecto.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "¿Qué implica la práctica de \"refactorización\" en XP?",
+            "opciones": [
+                {
+                    "texto": "Que el cliente colabore directamente en la escritura del código.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Que dos programadores trabajen juntos en una misma tarea para mejorar la calidad del código.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Que la producción de código esté dirigida por las pruebas unitarias.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Que el código se reestructure de forma constante para evitar duplicación.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Planificación de Proyectos"
+        },
+        {
+            "enunciado": "¿Qué es una auditoría informática?",
+            "opciones": [
+                {
+                    "texto": "Un proceso para reparar hardware defectuoso.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un examen crítico de los sistemas de información para evaluar su eficacia.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Un procedimiento para instalar software nuevo.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una revisión de marketing en empresas de tecnología.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes es una fase de la metodología de auditoría informática?",
+            "opciones": [
+                {
+                    "texto": "Evaluación de productos financieros.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Comunicación de resultados.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Instalación de redes.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Desarrollo de aplicaciones.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        },
+        {
+            "enunciado": "¿Qué tipo de riesgo existe si un error no se puede detectar debido a la falta de controles internos?",
+            "opciones": [
+                {
+                    "texto": "Riesgo inherente.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Riesgo de control.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Riesgo de detección.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Riesgo financiero.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        },
+        {
+            "enunciado": "¿Qué debe incluir un informe de auditoría?",
+            "opciones": [
+                {
+                    "texto": "Planos de la infraestructura física.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Publicidad sobre la empresa.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Motivos de la auditoría y resultados.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Propuestas de marketing.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        },
+        {
+            "enunciado": "¿Cuál es uno de los objetivos de la auditoría informática?",
+            "opciones": [
+                {
+                    "texto": "Comprar nuevos equipos informáticos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Evitar errores materiales en transacciones financieras.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Verificar que los controles funcionan eficazmente.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Crear bases de datos nuevas.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        },
+        {
+            "enunciado": "La auditoría de sistemas de información se define como:",
+            "opciones": [
+                {
+                    "texto": "Evaluar y modificar el código de software",
+                    "correcta": false
+                },
+                {
+                    "texto": "Revisar los sistemas de procesamiento de información y los procesos relacionados",
+                    "correcta": true
+                },
+                {
+                    "texto": "Instalar nuevo hardware del sistema",
+                    "correcta": false
+                },
+                {
+                    "texto": "Solucionar problemas técnicos",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        },
+        {
+            "enunciado": "¿Qué incluye el estudio preliminar de una auditoría?",
+            "opciones": [
+                {
+                    "texto": "Sustituir los dispositivos del sistema",
+                    "correcta": false
+                },
+                {
+                    "texto": "Redactar informes financieros",
+                    "correcta": false
+                },
+                {
+                    "texto": "Realizar entrevistas y encuestas",
+                    "correcta": true
+                },
+                {
+                    "texto": "Eliminar datos innecesarios",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        },
+        {
+            "enunciado": "El objetivo del control de riesgos es:",
+            "opciones": [
+                {
+                    "texto": "Eliminar todos los problemas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Mitigar el riesgo siguiendo un método de control",
+                    "correcta": true
+                },
+                {
+                    "texto": "Mejorar la satisfacción del usuario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Aumentar el rendimiento del hardware",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes NO es parte de los procedimientos de auditoría?",
+            "opciones": [
+                {
+                    "texto": "Entrevistar a especialistas técnicos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Desarrollar herramientas para probar y verificar controles",
+                    "correcta": false
+                },
+                {
+                    "texto": "Diseñar un nuevo sistema de información",
+                    "correcta": true
+                },
+                {
+                    "texto": "Usar software de gestión de bases de datos para analizar datos",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        },
+        {
+            "enunciado": "¿Cuál es el propósito final de una auditoría de sistemas de información?",
+            "opciones": [
+                {
+                    "texto": "Fortalecer la cultura corporativa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Mejorar la eficiencia y seguridad de los sistemas de información",
+                    "correcta": true
+                },
+                {
+                    "texto": "Reducir los costos de auditoría",
+                    "correcta": false
+                },
+                {
+                    "texto": "Aumentar la velocidad del hardware",
+                    "correcta": false
+                }
+            ],
+            "tema": "Auditoría"
+        }
+    ]
+}
