@@ -1,50 +1,58 @@
-# React + TypeScript + Vite
+# Aplicación de Test de Conocimientos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicación es un test interactivo para evaluar los conocimientos de una asignatura. Está desarrollada con React y TypeScript, y utiliza Vite como herramienta de construcción. La aplicación presenta una serie de preguntas con múltiples opciones de respuesta y permite al usuario navegar entre las preguntas, responderlas y ver si su respuesta es correcta o incorrecta.
 
-Currently, two official plugins are available:
+## Estructura del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto tiene la siguiente estructura de directorios:
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+``` textplain
+.
+├── index.html
+├── package.json
+├── postcss.config.js
+├── public/
+├── README.md
+├── src/
+│   ├── App.tsx
+│   ├── components/
+│   │   ├── footerButtons.tsx
+│   │   └── Question.tsx
+│   ├── data/
+│   │   └── preguntas.json          # Archivo con las preguntas y respuestas
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Requisitos
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Para que la aplicación funcione correctamente, las preguntas y respuestas deben seguir el patrón especificado en el archivo `preguntasASI.json`.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+## Instalación y Ejecución
+
+1. Clona el repositorio.
+2. Instala las dependencias con `npm install`.
+3. Inicia la aplicación en modo desarrollo con `npm run dev`.
+4. Abre tu navegador y navega a `http://localhost:3000` para ver la aplicación en funcionamiento.
+
+## Scripts Disponibles
+
+- `npm run dev`: Inicia la aplicación en modo desarrollo.
+- `npm run build`: Construye la aplicación para producción.
+- `npm run lint`: Ejecuta ESLint para encontrar y arreglar problemas en el código.
+- `npm run preview`: Previsualiza la aplicación construida.
+
+## Personalización
+
+Puedes personalizar las preguntas y respuestas editando el archivo `preguntasASI.json`. Asegúrate de seguir el formato especificado para evitar errores.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que te gustaría realizar.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalle.
 ```
