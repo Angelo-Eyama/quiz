@@ -2,6 +2,8 @@
 
 Esta aplicación es un test interactivo para evaluar los conocimientos de una asignatura. Está desarrollada con React y TypeScript, y utiliza Vite como herramienta de construcción. La aplicación presenta una serie de preguntas con múltiples opciones de respuesta y permite al usuario navegar entre las preguntas, responderlas y ver si su respuesta es correcta o incorrecta.
 
+![Imagen de la Aplicación](./public/demo.jpg)
+
 ## Estructura del Proyecto
 
 El proyecto tiene la siguiente estructura de directorios:
