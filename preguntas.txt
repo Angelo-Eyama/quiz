@@ -1,0 +1,583 @@
+Tema 1: Introducción
+1. Unas de estas opciones NO es un tipo de Sistema Operativo
+a) Distribuido
+b) En red
+c) Monolítico*
+d) Por lotes
+
+2. A qué tipo de sistema Operativo se refiere la siguiente definición: "El tiempo asignado para el cambio de tareas es muy inferior, unos 3 microsegundos".
+a) S.O. en Tiempo Real*
+b) S.O. Distribuido
+c) S.O. en Red
+d) S.O. por Lotes
+
+3. ¿Cuál es la función principal de un Sistema Operativo?
+a) Ejecutar aplicaciones de ofimática y diseño gráfico
+b) Almacenar y organizar archivos en la nube
+c) Controlar y coordinar el uso del hardware entre programas y usuarios*
+d) Proteger el equipo contra virus y malware
+
+4. ¿Cuál de las siguientes opciones NO es una tarea típica de un Sistema Operativo?
+a) Realizar la interfaz sistema-usuario
+b) Compartir los recursos de Hardware entre los usuarios
+c) Llevar el control sobre el uso de recursos
+d) Diseñar aplicaciones de software personalizadas*
+
+5. La definición "Varias tareas se pueden ejecutar al  mismo tiempo" corresponde a:
+a) S.O. Multitarea*
+b) S.O. Distribuidos
+c) S.O. por Lotes
+d) S.O. en Red
+
+
+
+
+Tema 2: Windows Server
+1. ¿Qué servicio de Windows Server se utiliza para la gestión de usuarios y equipos a través de directivas?
+a) IIS
+b) SQL Server
+c) Active Directory *
+d) Azure
+
+2. ¿Qué tipo de relación de confianza en Active Directory se establece entre dos dominios diferentes en el mismo bosque y es bidireccional y transitiva?
+a) Raíz de árbol *
+b) Externa
+c) Principal-Secundario
+d) De bosque
+
+3. ¿Cuál es el propósito principal de un controlador de dominio en Windows Server?
+a) Administrar el almacenamiento de datos
+b) Controlar el acceso a los recursos del servidor
+c) Almacenar la base de datos de Active Directory y gestionar la autenticación *
+d) Configurar máquinas virtuales en Azure
+
+4. ¿Cuál es la principal ventaja de la estructura lógica de Active Directory?
+a) Permite la administración de recursos sin importar su ubicación física *
+b) Asegura la replicación de datos entre todos los dominios
+c) Ofrece un almacenamiento local para cada usuario
+d) Facilita la conexión a bases de datos externas
+
+5. ¿Cuál es el rol de un "Maestro de Esquema" en un bosque de Active Directory?
+a) Gestionar los identificadores de seguridad únicos (SID )
+b) Mantener la lista de objetos eliminados
+c) Garantizar que todos los objetos se definan de la misma manera *
+d) Realizar la replicación entre controladores de dominio
+
+1. ¿Cuál es la función principal de Active Directory (AD )?
+A) Configurar el hardware del servidor
+B) Gestionar los recursos compartidos de la red y las cuentas de usuario*
+C) Monitorear el rendimiento de las aplicaciones
+D) Proteger las bases de datos contra accesos no autorizados
+
+2. ¿Qué tecnología permite la autenticación de usuarios en Windows
+Server mediante LDAP?
+A) Active Directory Domain Services
+B) Active Directory Federation Services*
+C) Server Message Block
+D) Réplicas de almacenamiento
+
+3. Qué rol tiene el maestro de esquema en un controlador de dominio?
+A) Garantizar que todos los nombres de los objetos sean únicos
+B) Contener la copia maestra del esquema utilizado por todos los controladores del dominio*
+C) Gestionar las referencias de objetos en otros dominios
+D) Configurar políticas de seguridad para usuarios y máquinas
+
+4. Qué característica distingue un dominio de un grupo de trabajo en
+Windows Server?
+A) Todos los equipos deben estar en la misma subred
+B) No es posible compartir recursos entre máquinas
+C) Permite iniciar sesión en cualquier equipo del dominio con una sola cuenta*
+D) Limita el número máximo de equipos a 20
+
+5. ¿Qué tecnología de replicación utiliza Active Directory?
+A) Copias de seguridad manuales
+B) Replicación unidireccional entre controladores
+C) Solicitudes de replicación automáticas cada 15 segundos*
+D) Replicación simultánea de todos los controladores de todos los dominios
+
+1. ¿Qué ofrece Active Directory Domain Service?
+a). Métodos para almacenar los datos de directorio y hacer que estos datos estén disponibles.*
+b). Resetear todos los equipos de un dominio.
+c). Acceder remotamente a todos los equipos de una subred.
+d). Configurar el servidor de la red.
+
+2. ¿Cuál es la unidad más pequeña presente en la estructura lógica de Active Directory?.
+a). Dominio.
+b). Unidad Organizativa.*
+c). Bosque.
+d). Árbol.
+
+3. ¿Cuál de las siguientes NO es una unidad de replicación del Controlador de Dominio?
+a). Esquema.
+b). Configuración.
+c). Diagrama de uso.*
+d). Dominio.
+
+4. Selecciona la afirmación correcta.
+a). El maestro de infraestructura asegura que todos los nombres de los objetos sean únicos.
+b). Pueden existir varios maestros de nombres de dominio por bosque.
+c). El resto de roles dependen del maestro del identificador relativo.
+d). Solo existe un maestro de esquema por bosque.*
+
+5. Seleccione la afirmación falsa en relación a la replicación.
+a). La replicación está limitada por el bosque.*
+b). La replicación está limitada por el dominio.
+c). Cada controlador cuenta con una copia actualizada de la base de datos.
+d). Todos los controladores de dominio son iguales.
+
+Tema 3: Linux
+
+1. ¿Cuál de las siguientes frases sobre los usuarios root es falsa?
+A. Es la única cuenta de usuario con privilegios sobre todo el sistema.
+B. Su UID (User ID ) es 1 (uno). *
+C. Ejecuta tareas de mantenimiento del sistema.
+D. Puede detener el sistema.
+2. ¿Qué es el kernel?
+A. Es el encargado de asignar una parte de la memoria para la ejecución de tareas.*
+B. Es el encargado de la ejecución de tareas una vez se le asigna parte de la memoria.
+C. Es el encargado de elegir la forma en la que se ejecutan las tareas.
+D. Es el encargado de terminar los procesos que llevan mucho tiempo ejecutándose.
+3. Linux ...
+A. Permite personalizar la interfaz de usuario.
+B. Garantiza un avanzado nivel de seguridad.
+C. Presenta una importante capacidad multitarea.
+D. Todas son verdaderas.*
+
+4. ¿Qué comando se utiliza para visualizar los permisos de un archivo en Linux?
+A. chmod.
+B. ls -l. *
+C. ps.
+D. top.
+5. ¿Qué comando se utiliza para cambiar los permisos de un archivo en Linux?
+A. chmod. *
+B. chown.
+C. ls -l.
+D. ps.
+
+1. ¿Cuál de estos NO es un sistema de ficheros?
+a) ext2
+b) ext4
+c) ReiserFS
+d) DataFS*
+
+2. ¿Cuál de las siguientes NO es una característica típica de un sistema operativo?
+a) Permite personalizar la interfaz de usuario
+b) Garantiza un avanzado nivel de seguridad
+c) Favorece el trabajo en modo multiusuario
+d) Requiere actualizaciones obligatorias desde un servidor central *
+
+3. ¿Cuál de las siguientes NO es una característica del usuario root en un sistema operativo Linux?
+a) Su UID (User ID ) es 0 (cero).
+b) Puede modificar o reconfigurar el kernel, controladores, etc.
+c) Solo tiene acceso a los archivos y directorios propios.*
+d) También llamado superusuario o administrador.
+
+4. ¿Cuál de las siguientes es una característica falsa sobre los usuarios normales en Linux?
+a) Cada usuario dispone de un directorio de trabajo, ubicado generalmente en /home.
+b) Cada usuario puede personalizar su entorno de trabajo.
+c) Pueden modificar el kernel del sistema sin restricciones *
+d) Por seguridad, es siempre mejor trabajar como un usuario normal en vez del usuario root, y cuando se requiera hacer uso de comandos solo de root, utilizar el comando su.
+
+5. ¿Cuál de los siguientes comandos NO es un comando de administración de usuarios en Linux?
+a) Useradd
+b) Usermod
+c) Groupadd
+d) ls *
+
+Tema 4: Redes
+1. COMPLETA: La clase ____  de direcciones IP se aplica en redes pequeñas:
+a)	B
+b)	C *
+c)	A
+d)	E
+
+2. Las direcciones IPv4 Broadcast:
+a)	Sirven para enviar IP_PDUs a todos los dispositivos de una red lógica. *
+b)	Sirven para enviar IP_PDUs a un grupo de dispositivos de la misma o diferente red lógica.
+c)	Sirven para enviar IP_PDUs a un único destino.
+d)	Sirven para enviar IP_PDUs a todos los dispositivos de direcciones pertenecientes a la clase A.
+
+3. COMPLETA: El comando ____ de Linux sirve para saber la dirección IP del host al que queremos llegar:
+a)	MTR
+b)	PING
+c)	DIG
+d)	NSLOOKUP *
+
+4. ¿Cuál de las siguientes aplicaciones puede usar el protocolo de transporte UDP?
+a)	Acceso remoto a un terminal
+b)	Transferencia de archivos
+c)	Correo electrónico
+d)	Telefonía por internet *
+
+5. ¿Cuál de los siguientes es un medio de transmisión de datos NO guiado?
+a)	Cable de fibra óptica
+b)	Cable coaxial
+c)	Satélite *
+d)	Par trenzado
+
+1. ¿Cuáles son los tres tipos de direcciones IPv4?
+a)	Unicast, Broadcast, Multicast*
+b)	Unicast, Podcast, Multicast
+c)	University, Podcast, Multicast
+d)  Solo Unicast
+
+2. ¿Qué es una dirección MAC?
+a)	La dirección MAC (Media Access Control) es un identificador único que cada fabricante le asigna a la tarjeta de red de sus dispositivos conectados. *
+b)	Es la abreviatura del McDonald’s
+c)	Es la abreviatura de los portátiles de Apple
+d)	No existe
+
+3. ¿Cuáles son medios de transporte guiados?
+a)	Par trenzado, Cable coaxial, Cable de fibra óptica*
+b)	Transporte público
+c)	Coches
+d)	WLAN
+
+4. ¿Cuáles son medios de transporte no guiados?
+a)	Microondas terrestres, WLAN, Áreas extensas y satélites*
+b)	Cable de fibra óptica
+c)	Vehículos autónomos
+d)	No existen
+
+5. ¿Cuáles son arquitecturas en red?
+a)	Arquitecturas TCP/IP y OSI*
+b)	Arquitectura romana
+c)	Arquitectura renacentista
+d)	Ninguna de las anteriores
+
+
+1. Cual NO es una topología de una red
+a)Estrella
+b)Mixta
+c)Protocolo*
+d)Malla
+
+2. Cual de estos es un medio de transmisión guiado:
+a)WLAN
+b)Par trenzado*
+c)Microondas terrestre
+d)Satélite
+
+3. Indica la respuesta verdadera sobre Dirección MAC
+a) Están formadas por 48 bits y generalmente se representan en formato hexadecimal.*
+b) Son direcciones que cambian cada vez que el dispositivo se conecta a una red.
+c) Todas las direcciones MAC son idénticas para dispositivos del mismo fabricante.*
+d) No se pueden utilizar para controlar el acceso a redes.
+
+4. Indica la respuesta falsa:
+a) Existen tres tipos de direcciones IPv4: Unicast, Broadcast, Multicast
+b) Multicast sirve para enviar datos a grupo de dispositivos
+c) Broadcast sirve para enviar datos a un único destino*
+d) Unicast sirve para enviar datos a un único destino
+
+5. Indica la opción que NO se corresponda con la arquitectura de red TCP/IP
+a) Es la usada en Internet
+b) Se compone de cinco capas
+c) Describe funciones, servicios y protocolos
+d) Estándar ISO *
+
+
+Tema 5: ERP
+1. ¿De qué tipo puede ser una ERP?
+a) Vertical y Recursiva
+b) Vertical y Transversal
+c) Horizontal o Vertical*
+d) Administrativa o de Sistemas
+
+2. Un sistema ERP
+a) Son sistemas de información gerenciales que integran y manejan operaciones de producción y aspectos de distribución de una empresa*
+b) Es un sistema que exclusivamente gestiona las redes sociales de una empresa
+c) Es una herramienta para el diseño gráfico de productos y empaques
+d) Es un sistema usado para enviar y gestionar correos masivos a clientes y proveedores
+
+3. Entre los objetivos de un sistema ERP se encuentran
+a) Optimización de Procesos Empresariales
+b) Acceso a la información
+c) Eliminación de datos y operaciones innecesarias de reingeniería
+d) Todas son correctas *
+
+4. La modularidad de una ERP se basa en 
+a) Entender que una empresa es un conjunto de departamentos interrelacionados*
+b) Configurar mediante desarrollo de código el control de inventarios
+c) Ambas son falsas
+d) Ambas son correctas 
+
+5. Entre las desventajas de un sistema ERP encontramos 
+a) La instalación de un sistema ERP es muy barata
+b) La compatibilidad entre sistemas se realiza con programas externos
+c) Los sistemas pueden presentar problemas de “cuellos de botella”, generando que la ineficiencia de un departamento o de un empleado, repercuta en toda la empresa *
+d) Presentará más resistencia al compartir información 
+
+
+1. Un ERP es 
+a)	Un sistema de información gerencial que integra y maneja muchos de los negocios asociados con las operaciones de producción y de los aspectos de distribución de una compañía*
+b)	Sistema informático que asiste en la producción de materias para la empresa
+c)	Sistema de medición de las distancias recorridas por los vehículos que maneja una empresa 
+d)	Una estrategia de negocio enfocada al cliente, en la que el objetivo es reunir la mayor cantidad de información posible de los clientes para generar relaciones de confianza a largo plazo.
+
+2. El software de una ERP ¿en que áreas del negocio interviene?
+a)	Solamente maneja la producción, logística, distribución, inventario, envíos, facturas y contabilidad
+b)	Maneja muchas actividades de negocios como ventas, producción, administración de inventarios, calidad de administración y la administración de recursos humanos.*
+c)	Solamente maneja al personal e inventario.
+d)	Maneja la página web de la empresa, permitiendo modificarla de manera dinámica 
+
+3. ¿Cuáles son los tipos principales de ERP?
+a) Diagonales y rectos 
+b) Verticales y diagonales 
+c) Rectos y horizontales 
+d) Verticales y horizontales*
+
+4. Una de las características principales de los ERPs es ser 
+a) Modulares (la funcionalidad se encuentra dividida en módulos) y configurables (pueden ser modificados mediante desarrollos en el código del software) *
+b) Solamente modulares 
+c) Solamente configurables 
+d) Baratos, no cuesta nada implementarlos, e iterativos, mejoran cada año que se usan en la empresa 
+
+5. Los objetivos principales de un ERP se tratan de 
+a) Privatización de la información de los empleados, optimización de procesos e integración de procesos extras en todos las partes de la empresa.
+b) Optimización de los procesos empresariales, acceso a la información, posibilidad de compartir información entre todos los componentes de la organización y eliminación de datos y operaciones innecesarias de reingeniería. *
+c) Optimización de los procesos empresariales, integración de procesos extras en todos las partes de la empresa, borrar toda la información previa de la empresa.
+d) Eliminación de datos y operaciones innecesarias de reingeniería, optimización de los procesos empresariales, privatización de la información de los empleados y configuración de nuevos y viejos procesos para la modernización total de la empresa. 
+
+
+Tema 6: CRM
+1. ¿Cuál es el principal objetivo de un CRM?
+a) Automatizar procesos financieros.
+b) Incrementar la cantidad de ventas sin importar la relación con el cliente.
+c) Reunir información de los clientes para generar relaciones de confianza a largo plazo.*
+d) Sustituir las estrategias de marketing digital.
+
+2. ¿Qué componente NO forma parte de un CRM según Barton Goldenberg?
+a) Funcionalidad de ventas y su administración.
+b) Gestión de recursos humanos (HR).*
+c) Integración del ERP.
+d) Sincronización de datos.
+
+3. ¿Cuál es una característica distintiva del CRM Social respecto al CRM tradicional?
+a) Mayor enfoque en la gestión de inventarios.
+b) Incorporación de interacción y conversación con los clientes a través de redes sociales.*
+c) Exclusivo para grandes empresas.
+d) Automatización completa de los procesos de ventas.
+
+4. Según Janice Anderson, ¿cuál es un beneficio clave de utilizar un CRM?
+a) Reducir la importancia del cliente en la estrategia de negocios.
+b) Desconectar a los clientes de las redes sociales.
+c) Incrementar el gasto de los clientes al estar más atentos a sus necesidades.*
+d) Implementar estrategias de marketing menos personalizadas.
+
+1. ¿Qué es un CRM?
+a)	Es una estrategia de negocios que surge de la filosofía del cliente como ente de principal valor en ámbito comercial.*
+b)	Es una estrategia de negocios que surge de la filosofía del ordenador como ente de principal valor en ámbito comercial.
+c)	No es una estrategia de negocios.
+d)	Ninguna es correcta.
+
+2. ¿Cuantos son los factores clave para una implementación exitosa de un CRM según Barton Goldenberg?
+a)	25
+b)	10*
+c)	7
+d)	3
+
+3. ¿Qué papel juegan las redes sociales en el CRM y en el Social CRM?
+a)	La opinión no importa y no afecta la imagen de la marca.
+b)	La opinión se multiplica de forma viral y afecta significativamente la imagen de la marca.*
+c)	Afecta levemente a la imagen de la marca.
+d)	Las redes sociales no interfieren con los CRM o CRM social.
+
+4. De las siguientes respuestas, indique la que no es una utilidad de un CRM:
+a)	Conexión constante con el cliente.
+b)	Seguimiento personalizado de cada cliente.
+c)	Se les provee de información y soporte, se les avisa de nuevas activaciones y propuestas, y se les recompensa por producir contenido positivo.
+d)	Gestión directa de la producción o el control de inventarios.*
+
+5. ¿Por qué es importante involucrar a los usuarios en la construcción del sistema CRM?
+a)	Para garantizar que el sistema CRM sea personalizado.*
+b)	Para reducir los costos de implementación.
+c)	Para eliminar la necesidad de capacitación en el sistema.
+d)	Para asegurarse de que todos los empleados de la empresa se conviertan en expertos en programación y diseño de sistemas CRM.
+
+
+Tema 7: ARS
+1. ¿Cuál de las siguientes es una herramienta para administración remota?
+a) GoToMyPC.
+b) TeamViewer.
+c) Chrome Remote Desktop.
+d) Todas las anteriores son correctas.*
+
+2. ¿Qué característica es fundamental para implementar un Sistema Reseller en un panel de control?
+a) Instalación de software adicional.
+b) Gestión de accesos SSH y DNS.
+c) Creación de una estructura de permisos y accesos para clientes.*
+d) Configuración de autorespondedores y antispam.
+
+3. ¿Cuál de las siguientes tareas corresponde a la configuración de dominios en un panel de control?
+a) Redireccionamientos.*
+b) Completa gestión de usuarios.
+c) Cuentas de correo.
+d) Reiniciar/apagar el servidor.
+
+4. ¿Cuál de las siguientes tareas corresponde a la configuración a nivel de servidor en un panel de control?
+a) Cuentas de correo.
+b) Completa gestión de usuarios.
+c) Certificados SSL
+d) Gestión de Ips.*
+
+5. ¿Cuál de las siguientes opciones es un panel de control?
+a) Notepad++.
+b) Parallels Plesk.*
+c) Microsoft Visual Studio.
+d) FileZilla.
+
+1.	¿Qué es la administración remota de servidores?
+a)	Un método para desinstalar software de forma local.
+b)	Una funcionalidad de determinado software que permite realizar ciertas acciones desde un equipo local y que estas se ejecuten en un equipo remoto*
+c)	Un proceso de mantenimiento exclusivo para hardware.
+d)	Una técnica de programación avanzada para servidores.
+
+2.	¿Cuál de las siguientes es una herramienta para administración remota?
+a)	Microsoft Word.
+b)	Microsoft Remote Desktop.*
+c)	Adobe Photoshop.
+d)	VLC Media Player.
+
+3.	¿Qué es un panel de control en administración remota?
+a)	Un hardware que conecta servidores.
+b)	Un antivirus para proteger servidores remotos.
+c)	Un sistema operativo especializado.
+d)	Software de gestión que permite registrar un alojamiento web a través de una interfaz gráfica orientada a tareas.*
+
+4.	¿Cuál de estas tareas se puede realizar con un panel de control?
+a)	Configurar dominios.
+b)	Crear un sistema reseller.
+c)	Configuración a nivel de servidor.
+d)	Todas son tareas que puede realizar.*
+
+5.	¿Cuál de las siguientes opciones no es un panel de control?
+a)	cPanel & WHM
+b)	ISPConfig.
+c)	Parallels Plesk.
+d)	Google Chrome.*
+
+Tema 8: Planificación de Proyectos
+1. A la hora de definir las restricciones económicas en la planificación de un proyecto, si no se conoce el montaje económico del que se dispone para la ejecución del proyecto en todas sus fases:
+a) Se realiza una estimación aproximada basada en proyectos similares.
+b) Se establece un mínimo de forma que la planificación se basa en gastar más de dicha cantidad.
+c) Se establece un máximo de forma que la planificación se basa en no gastar más de dicha cantidad.*
+d) Se pondrá cuando se sepa más adelante en el proyecto.
+
+2. En la fase de definición de alcance de proyecto se llevan a cabo las actividades de:
+a) Lugar de despliegue, tecnología legada y restricciones.
+b) Objetivo final del proyecto, tecnología legada y restricciones.
+c) Objetivos intermedios del proyecto, lugar de despliegue y tecnología legada.
+d) Tecnología legada, lugar de despliegue y objetivo final e intermedios del proyecto.*
+
+3. ¿Cuál no es una de las restricciones típicas a considerar en la definición de restricciones a la hora de planificar un proyecto?
+a) Recursos económicos.
+b) Recursos humanos.
+c) Recursos tecnológicos.
+d) Recursos de infraestructura.*
+
+4. ¿Cuál de las siguientes metodologías no es una metodología ágil?
+a) Scrum.
+b) Extreme programming.
+c) Cascada.*
+d) Crystal Clear.
+
+5. La comunicación del riesgo se realiza en la fase de:
+a) Estudio de viabilidad.
+b) Análisis de riesgo.*
+c) Realización de estimaciones.
+d) Definición de restricciones.
+
+1. ¿Qué promueven los procesos ágiles respecto a los cambios en los requisitos?
+a) Resistencia a los cambios para evitar retrasos.
+b) Aprovechar los cambios como una ventaja competitiva del cliente.*
+c) Incluir los cambios solo si ocurren al principio del desarrollo.
+d) Limitar los cambios a una fase específica del proyecto.
+
+2. Según XP, ¿qué es clave para el éxito en el desarrollo de software?
+a) Un enfoque rígido en los requisitos iniciales.
+b) Potenciar las relaciones interpersonales y promover el trabajo en equipo.*
+c) Completar el proyecto sin interrupciones del cliente.
+d) Automatizar todo el proceso de desarrollo.
+
+3. ¿Qué es una historia de usuario en el contexto de XP?
+a) Un documento técnico que describe la arquitectura del software en conjunto.
+b) Una historia narrativa utilizada para capacitar a los programadores .
+c) Una ficha breve que describe características que el sistema debe poseer.*
+d) Una descripción técnica detallada de todos los requisitos funcionales.
+
+4. ¿Cuál es la función principal del gestor (big boss) según la propuesta de Beck?
+a) Actuar como vínculo entre clientes y programadores, asegurando la coordinación y creando condiciones adecuadas para el trabajo.*
+b) Diseñar la arquitectura técnica del sistema y validar las pruebas unitarias del código.
+c) Definir los requisitos funcionales del sistema y asignar tareas específicas a los programadores.
+d) Escribir las historias de usuario y priorizarlas según el valor de negocio del proyecto.
+
+
+5. ¿Qué implica la práctica de "refactorización" en XP?
+a) Que el cliente colabore directamente en la escritura del código.
+b) Que dos programadores trabajen juntos en una misma tarea para mejorar la calidad del código.
+c) Que la producción de código esté dirigida por las pruebas unitarias.
+d) Que el código se reestructure de forma constante para evitar duplicación.*
+
+
+
+Tema 9: Auditoría
+1. ¿Qué es una auditoría informática?
+a) Un proceso para reparar hardware defectuoso.
+b) Un examen crítico de los sistemas de información para evaluar su eficacia.*
+c) Un procedimiento para instalar software nuevo.
+d) Una revisión de marketing en empresas de tecnología.
+
+2. ¿Cuál de las siguientes es una fase de la metodología de auditoría informática?
+a) Evaluación de productos financieros.
+b) Comunicación de resultados.*
+c) Instalación de redes.
+d) Desarrollo de aplicaciones.
+
+3. ¿Qué tipo de riesgo existe si un error no se puede detectar debido a la falta de controles internos?
+a) Riesgo inherente.
+b) Riesgo de control.*
+c) Riesgo de detección.
+d) Riesgo financiero.
+
+4. ¿Qué debe incluir un informe de auditoría?
+a) Planos de la infraestructura física.
+b) Publicidad sobre la empresa.
+c) Motivos de la auditoría y resultados.*
+d) Propuestas de marketing.
+
+5. ¿Cuál es uno de los objetivos de la auditoría informática?
+a) Comprar nuevos equipos informáticos.
+b) Evitar errores materiales en transacciones financieras.
+c) Verificar que los controles funcionan eficazmente.*
+d) Crear bases de datos nuevas.
+
+1.	La auditoría de sistemas de información se define como: 
+a) Evaluar y modificar el código de software
+b) Revisar los sistemas de procesamiento de información y los procesos relacionados *
+c) Instalar nuevo hardware del sistema
+d) Solucionar problemas técnicos
+
+2.	¿Qué incluye el estudio preliminar de una auditoría? 
+a) Sustituir los dispositivos del sistema
+b) Redactar informes financieros
+c) Realizar entrevistas y encuestas *
+d) Eliminar datos innecesarios
+
+3.	El objetivo del control de riesgos es: 
+a) Eliminar todos los problemas
+b) Mitigar el riesgo siguiendo un método de control *
+c) Mejorar la satisfacción del usuario
+d) Aumentar el rendimiento del hardware
+
+4.	¿Cuál de los siguientes NO es parte de los procedimientos de auditoría? 
+a) Entrevistar a especialistas técnicos
+b) Desarrollar herramientas para probar y verificar controles
+c) Diseñar un nuevo sistema de información *
+d) Usar software de gestión de bases de datos para analizar datos
+
+5.	¿Cuál es el propósito final de una auditoría de sistemas de información? 
+a) Fortalecer la cultura corporativa
+b) Mejorar la eficiencia y seguridad de los sistemas de información *
+c) Reducir los costos de auditoría
+d) Aumentar la velocidad del hardware

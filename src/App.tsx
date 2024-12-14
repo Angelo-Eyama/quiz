@@ -90,6 +90,7 @@ function App() {
   return (
     <main className='container mx-auto p-4 content-center'>
       <Question
+        tema='ASI'
         contador={contador}
         maxContador={maxContador}
         preguntaActual={preguntaActual}
