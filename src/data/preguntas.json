@@ -378,19 +378,19 @@
             "enunciado": "¿Cuál de las siguientes NO es una unidad de replicación del Controlador de Dominio?",
             "opciones": [
                 {
-                    "texto": ". Esquema.",
+                    "texto": "Esquema.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Configuración.",
+                    "texto": "Configuración.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Diagrama de uso.",
+                    "texto": "Diagrama de uso.",
                     "correcta": true
                 },
                 {
-                    "texto": ". Dominio.",
+                    "texto": "Dominio.",
                     "correcta": false
                 }
             ],
@@ -400,19 +400,19 @@
             "enunciado": "Selecciona la afirmación correcta.",
             "opciones": [
                 {
-                    "texto": ". El maestro de infraestructura asegura que todos los nombres de los objetos sean únicos.",
+                    "texto": "El maestro de infraestructura asegura que todos los nombres de los objetos sean únicos.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Pueden existir varios maestros de nombres de dominio por bosque.",
+                    "texto": "Pueden existir varios maestros de nombres de dominio por bosque.",
                     "correcta": false
                 },
                 {
-                    "texto": ". El resto de roles dependen del maestro del identificador relativo.",
+                    "texto": "El resto de roles dependen del maestro del identificador relativo.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Solo existe un maestro de esquema por bosque.",
+                    "texto": "Solo existe un maestro de esquema por bosque.",
                     "correcta": true
                 }
             ],
@@ -422,19 +422,19 @@
             "enunciado": "Seleccione la afirmación falsa en relación a la replicación.",
             "opciones": [
                 {
-                    "texto": ". La replicación está limitada por el bosque.",
+                    "texto": "La replicación está limitada por el bosque.",
                     "correcta": true
                 },
                 {
-                    "texto": ". La replicación está limitada por el dominio.",
+                    "texto": "La replicación está limitada por el dominio.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Cada controlador cuenta con una copia actualizada de la base de datos.",
+                    "texto": "Cada controlador cuenta con una copia actualizada de la base de datos.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Todos los controladores de dominio son iguales.",
+                    "texto": "Todos los controladores de dominio son iguales.",
                     "correcta": false
                 }
             ],
