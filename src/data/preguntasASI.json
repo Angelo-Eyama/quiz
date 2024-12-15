@@ -937,7 +937,7 @@
                 },
                 {
                     "texto": "Todas las direcciones MAC son idénticas para dispositivos del mismo fabricante.",
-                    "correcta": true
+                    "correcta": false
                 },
                 {
                     "texto": "No se pueden utilizar para controlar el acceso a redes.",

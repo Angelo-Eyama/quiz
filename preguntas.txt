@@ -264,7 +264,7 @@ d)Satélite
 3. Indica la respuesta verdadera sobre Dirección MAC
 a) Están formadas por 48 bits y generalmente se representan en formato hexadecimal.*
 b) Son direcciones que cambian cada vez que el dispositivo se conecta a una red.
-c) Todas las direcciones MAC son idénticas para dispositivos del mismo fabricante.*
+c) Todas las direcciones MAC son idénticas para dispositivos del mismo fabricante.
 d) No se pueden utilizar para controlar el acceso a redes.
 
 4. Indica la respuesta falsa:

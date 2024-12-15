@@ -107,6 +107,10 @@ function App() {
 
   const handleReset = () => {
     setContador(1);
+    shuffleArray(preguntas);
+    preguntas.forEach((pregunta: Pregunta) => {
+      shuffleArray(pregunta.opciones);
+    });
     setPreguntaActual(preguntas[0]);
   }
 
