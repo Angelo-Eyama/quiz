@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import preguntasJSON from './data/preguntas.json';
+import preguntasASIJSON from './data/preguntasASI.json';
+import preguntasSOAJSON from './data/preguntasSOA.json';
 import FooterButtons from './components/footerButtons';
 import Question from './components/Question';
 
@@ -22,7 +23,8 @@ const shuffleArray = (array: any[]) => {
 };
 
 function App() {
-  const [preguntas, setpreguntas] = useState<Pregunta[]>(JSON.parse(JSON.stringify(preguntasJSON)).preguntas);
+  const [tema, setTema] = useState('ASI');
+  const [preguntas, setpreguntas] = useState<Pregunta[]>(JSON.parse(JSON.stringify(preguntasASIJSON)).preguntas);
   const [preguntaActual, setPreguntaActual] = useState<Pregunta>(preguntas[0]);
   const [contador, setContador] = useState(1);
   const maxContador = preguntas.length;
@@ -33,7 +35,7 @@ function App() {
     preguntas.forEach((pregunta: Pregunta) => {
       shuffleArray(pregunta.opciones);
     });
-  }, []);
+  }, [tema]);
 
   const handleNext = () => {
     const index = preguntas.indexOf(preguntaActual);
@@ -86,20 +88,39 @@ function App() {
     }, 500);
   };
 
+  const handleReset = () => {
+    setContador(1);
+    setPreguntaActual(preguntas[0]);
+  }
+
+  const handleChangeTheme = () => {
+    // Si el tema es ASI, cambiamos a SOA y viceversa
+    if (tema === 'ASI') {
+      setTema('SOA');
+      setpreguntas(JSON.parse(JSON.stringify(preguntasSOAJSON)).preguntas);
+    } else {
+      setTema('ASI');
+      setpreguntas(JSON.parse(JSON.stringify(preguntasASIJSON)).preguntas);
+    }
+
+    handleReset();
+  };
 
   return (
     <main className='container mx-auto p-4 content-center'>
       <Question
-        tema='ASI'
+        tema={tema}
         contador={contador}
         maxContador={maxContador}
         preguntaActual={preguntaActual}
         handleAnswer={handleAnswer}
       />
-      <FooterButtons handleBack={handleBack} handleNext={handleNext} handleReset={() => {
-        setContador(1);
-        setPreguntaActual(preguntas[0]);
-      }} />
+      <FooterButtons
+        handleBack={ handleBack }
+        handleNext={ handleNext }
+        handleChange={ handleChangeTheme }
+        handleReset={ handleReset } 
+      />
     </main>
   );
 

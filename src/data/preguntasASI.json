@@ -334,19 +334,19 @@
             "enunciado": "¿Qué ofrece Active Directory Domain Service?",
             "opciones": [
                 {
-                    "texto": ". Métodos para almacenar los datos de directorio y hacer que estos datos estén disponibles.",
+                    "texto": "Métodos para almacenar los datos de directorio y hacer que estos datos estén disponibles.",
                     "correcta": true
                 },
                 {
-                    "texto": ". Resetear todos los equipos de un dominio.",
+                    "texto": "Resetear todos los equipos de un dominio.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Acceder remotamente a todos los equipos de una subred.",
+                    "texto": "Acceder remotamente a todos los equipos de una subred.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Configurar el servidor de la red.",
+                    "texto": "Configurar el servidor de la red.",
                     "correcta": false
                 }
             ],
@@ -356,19 +356,19 @@
             "enunciado": "¿Cuál es la unidad más pequeña presente en la estructura lógica de Active Directory?.",
             "opciones": [
                 {
-                    "texto": ". Dominio.",
+                    "texto": "Dominio.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Unidad Organizativa.",
+                    "texto": "Unidad Organizativa.",
                     "correcta": true
                 },
                 {
-                    "texto": ". Bosque.",
+                    "texto": "Bosque.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Árbol.",
+                    "texto": "Árbol.",
                     "correcta": false
                 }
             ],
@@ -378,19 +378,19 @@
             "enunciado": "¿Cuál de las siguientes NO es una unidad de replicación del Controlador de Dominio?",
             "opciones": [
                 {
-                    "texto": ". Esquema.",
+                    "texto": "Esquema.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Configuración.",
+                    "texto": "Configuración.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Diagrama de uso.",
+                    "texto": "Diagrama de uso.",
                     "correcta": true
                 },
                 {
-                    "texto": ". Dominio.",
+                    "texto": "Dominio.",
                     "correcta": false
                 }
             ],
@@ -400,19 +400,19 @@
             "enunciado": "Selecciona la afirmación correcta.",
             "opciones": [
                 {
-                    "texto": ". El maestro de infraestructura asegura que todos los nombres de los objetos sean únicos.",
+                    "texto": "El maestro de infraestructura asegura que todos los nombres de los objetos sean únicos.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Pueden existir varios maestros de nombres de dominio por bosque.",
+                    "texto": "Pueden existir varios maestros de nombres de dominio por bosque.",
                     "correcta": false
                 },
                 {
-                    "texto": ". El resto de roles dependen del maestro del identificador relativo.",
+                    "texto": "El resto de roles dependen del maestro del identificador relativo.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Solo existe un maestro de esquema por bosque.",
+                    "texto": "Solo existe un maestro de esquema por bosque.",
                     "correcta": true
                 }
             ],
@@ -422,23 +422,133 @@
             "enunciado": "Seleccione la afirmación falsa en relación a la replicación.",
             "opciones": [
                 {
-                    "texto": ". La replicación está limitada por el bosque.",
+                    "texto": "La replicación está limitada por el bosque.",
                     "correcta": true
                 },
                 {
-                    "texto": ". La replicación está limitada por el dominio.",
+                    "texto": "La replicación está limitada por el dominio.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Cada controlador cuenta con una copia actualizada de la base de datos.",
+                    "texto": "Cada controlador cuenta con una copia actualizada de la base de datos.",
                     "correcta": false
                 },
                 {
-                    "texto": ". Todos los controladores de dominio son iguales.",
+                    "texto": "Todos los controladores de dominio son iguales.",
                     "correcta": false
                 }
             ],
             "tema": "Windows Server"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes frases sobre los usuarios root es falsa?",
+            "opciones": [
+                {
+                    "texto": "Es la única cuenta de usuario con privilegios sobre todo el sistema.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Su UID (User ID ) es 1 (uno).",
+                    "correcta": true
+                },
+                {
+                    "texto": "Ejecuta tareas de mantenimiento del sistema.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Puede detener el sistema.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Linux"
+        },
+        {
+            "enunciado": "¿Qué es el kernel?",
+            "opciones": [
+                {
+                    "texto": "Es el encargado de asignar una parte de la memoria para la ejecución de tareas.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Es el encargado de la ejecución de tareas una vez se le asigna parte de la memoria.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es el encargado de elegir la forma en la que se ejecutan las tareas.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es el encargado de terminar los procesos que llevan mucho tiempo ejecutándose.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Linux"
+        },
+        {
+            "enunciado": "Linux ...",
+            "opciones": [
+                {
+                    "texto": "Permite personalizar la interfaz de usuario.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Garantiza un avanzado nivel de seguridad.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Presenta una importante capacidad multitarea.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son verdaderas.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Linux"
+        },
+        {
+            "enunciado": "¿Qué comando se utiliza para visualizar los permisos de un archivo en Linux?",
+            "opciones": [
+                {
+                    "texto": "chmod.",
+                    "correcta": false
+                },
+                {
+                    "texto": "ls -l.",
+                    "correcta": true
+                },
+                {
+                    "texto": "ps.",
+                    "correcta": false
+                },
+                {
+                    "texto": "top.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Linux"
+        },
+        {
+            "enunciado": "¿Qué comando se utiliza para cambiar los permisos de un archivo en Linux?",
+            "opciones": [
+                {
+                    "texto": "chmod.",
+                    "correcta": true
+                },
+                {
+                    "texto": "chown.",
+                    "correcta": false
+                },
+                {
+                    "texto": "ls -l.",
+                    "correcta": false
+                },
+                {
+                    "texto": "ps.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Linux"
         },
         {
             "enunciado": "¿Cuál de estos NO es un sistema de ficheros?",

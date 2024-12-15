@@ -96,63 +96,66 @@ C) Solicitudes de replicación automáticas cada 15 segundos*
 D) Replicación simultánea de todos los controladores de todos los dominios
 
 1. ¿Qué ofrece Active Directory Domain Service?
-a). Métodos para almacenar los datos de directorio y hacer que estos datos estén disponibles.*
-b). Resetear todos los equipos de un dominio.
-c). Acceder remotamente a todos los equipos de una subred.
-d). Configurar el servidor de la red.
+a) Métodos para almacenar los datos de directorio y hacer que estos datos estén disponibles.*
+b) Resetear todos los equipos de un dominio.
+c) Acceder remotamente a todos los equipos de una subred.
+d) Configurar el servidor de la red.
 
 2. ¿Cuál es la unidad más pequeña presente en la estructura lógica de Active Directory?.
-a). Dominio.
-b). Unidad Organizativa.*
-c). Bosque.
-d). Árbol.
+a) Dominio.
+b) Unidad Organizativa.*
+c) Bosque.
+d) Árbol.
 
 3. ¿Cuál de las siguientes NO es una unidad de replicación del Controlador de Dominio?
-a). Esquema.
-b). Configuración.
-c). Diagrama de uso.*
-d). Dominio.
+a) Esquema.
+b) Configuración.
+c) Diagrama de uso.*
+d) Dominio.
 
 4. Selecciona la afirmación correcta.
-a). El maestro de infraestructura asegura que todos los nombres de los objetos sean únicos.
-b). Pueden existir varios maestros de nombres de dominio por bosque.
-c). El resto de roles dependen del maestro del identificador relativo.
-d). Solo existe un maestro de esquema por bosque.*
+a) El maestro de infraestructura asegura que todos los nombres de los objetos sean únicos.
+b) Pueden existir varios maestros de nombres de dominio por bosque.
+c) El resto de roles dependen del maestro del identificador relativo.
+d) Solo existe un maestro de esquema por bosque.*
 
 5. Seleccione la afirmación falsa en relación a la replicación.
-a). La replicación está limitada por el bosque.*
-b). La replicación está limitada por el dominio.
-c). Cada controlador cuenta con una copia actualizada de la base de datos.
-d). Todos los controladores de dominio son iguales.
+a) La replicación está limitada por el bosque.*
+b) La replicación está limitada por el dominio.
+c) Cada controlador cuenta con una copia actualizada de la base de datos.
+d) Todos los controladores de dominio son iguales.
 
 Tema 3: Linux
 
 1. ¿Cuál de las siguientes frases sobre los usuarios root es falsa?
-A. Es la única cuenta de usuario con privilegios sobre todo el sistema.
-B. Su UID (User ID ) es 1 (uno). *
-C. Ejecuta tareas de mantenimiento del sistema.
-D. Puede detener el sistema.
+A) Es la única cuenta de usuario con privilegios sobre todo el sistema.
+B) Su UID (User ID ) es 1 (uno). *
+C) Ejecuta tareas de mantenimiento del sistema.
+D) Puede detener el sistema.
+
 2. ¿Qué es el kernel?
-A. Es el encargado de asignar una parte de la memoria para la ejecución de tareas.*
-B. Es el encargado de la ejecución de tareas una vez se le asigna parte de la memoria.
-C. Es el encargado de elegir la forma en la que se ejecutan las tareas.
-D. Es el encargado de terminar los procesos que llevan mucho tiempo ejecutándose.
+A) Es el encargado de asignar una parte de la memoria para la ejecución de tareas.*
+B) Es el encargado de la ejecución de tareas una vez se le asigna parte de la memoria.
+C) Es el encargado de elegir la forma en la que se ejecutan las tareas.
+D) Es el encargado de terminar los procesos que llevan mucho tiempo ejecutándose.
+
 3. Linux ...
-A. Permite personalizar la interfaz de usuario.
-B. Garantiza un avanzado nivel de seguridad.
-C. Presenta una importante capacidad multitarea.
-D. Todas son verdaderas.*
+A) Permite personalizar la interfaz de usuario.
+B) Garantiza un avanzado nivel de seguridad.
+C) Presenta una importante capacidad multitarea.
+D) Todas son verdaderas.*
 
 4. ¿Qué comando se utiliza para visualizar los permisos de un archivo en Linux?
-A. chmod.
-B. ls -l. *
-C. ps.
-D. top.
+A) chmod.
+B) ls -l. *
+C) ps.
+D) top.
+
 5. ¿Qué comando se utiliza para cambiar los permisos de un archivo en Linux?
-A. chmod. *
-B. chown.
-C. ls -l.
-D. ps.
+A) chmod. *
+B) chown.
+C) ls -l.
+D) ps.
 
 1. ¿Cuál de estos NO es un sistema de ficheros?
 a) ext2
