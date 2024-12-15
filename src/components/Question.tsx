@@ -26,14 +26,14 @@ const Question: React.FC<QuestionProps> = ({ tema, contador, maxContador, pregun
             <p className='text-lg text-center mb-6'>{preguntaActual.enunciado}</p>
             <div className='flex flex-col'>
                 {preguntaActual.opciones.map((opcion, index) => (
-                    <button
-                        key={index}
-                        className='text-gray-900 bg-white border-gray-300 hover:bg-gray-400 font-medium rounded-lg px-3 py-2 me-4 mb-2'
-                        onClick={(e) => handleAnswer(e, opcion.correcta)}
-                    >
-                        {opcion.texto}
-                    </button>
-                ))}
+                        <button
+                            key={index}
+                            className='text-gray-900 bg-white border-gray-300 hover:bg-gray-400 font-medium rounded-lg px-3 py-2 me-4 mb-2'
+                            onClick={(e) => handleAnswer(e, opcion.correcta)}
+                        >
+                            {opcion.texto}
+                        </button>
+                    ))}
             </div>
         </div>
     );

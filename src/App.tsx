@@ -14,12 +14,28 @@ interface Pregunta {
   opciones: Opcion[];
   tema: string;
 }
+
 const shuffleArray = (array: any[]) => {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
+
   return array;
+};
+
+const filterByThemes = (array: Pregunta[], themes: string[]) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+
+  //Verificamos si el array de temas está vacío
+  if (!themes.length) {
+    return array;
+  }
+  let themeArray = array.filter((pregunta) => themes.includes(pregunta.tema));
+  return themeArray;
 };
 
 function App() {
@@ -30,7 +46,8 @@ function App() {
   const maxContador = preguntas.length;
 
   useEffect(() => {
-    const preguntasMezcladas = shuffleArray([...preguntas]);
+    // Filtramos las preguntas por los temas indicados en el array y los mezclamos
+    const preguntasMezcladas = filterByThemes([...preguntas], []);
     setpreguntas(preguntasMezcladas);
     preguntas.forEach((pregunta: Pregunta) => {
       shuffleArray(pregunta.opciones);
