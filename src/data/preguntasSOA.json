@@ -1,0 +1,2626 @@
+{
+    "preguntas": [
+        {
+            "enunciado": "Cual de estos NO es un principio básico de SOA",
+            "opciones": [
+                {
+                    "texto": "Inclusividad",
+                    "correcta": true
+                },
+                {
+                    "texto": "Escalabilidad",
+                    "correcta": false
+                },
+                {
+                    "texto": "Interoperabilidad",
+                    "correcta": false
+                },
+                {
+                    "texto": "Integración",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué es SOA?",
+            "opciones": [
+                {
+                    "texto": "Un modelo de desarrollo ágil.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un sistema operativo avanzado.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un estilo de arquitectura para soluciones basadas en servicios.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Una metodología para bases de datos relacionales.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Cuál es la estrategia filosófica principal de SOA?",
+            "opciones": [
+                {
+                    "texto": "\"Reutiliza o fracasa\".",
+                    "correcta": false
+                },
+                {
+                    "texto": "\"Divide y vencerás\".",
+                    "correcta": true
+                },
+                {
+                    "texto": "\"La complejidad siempre es necesaria\".",
+                    "correcta": false
+                },
+                {
+                    "texto": "\"Integración es sacrificio\"",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué ventaja ofrece la reutilización en SOA?",
+            "opciones": [
+                {
+                    "texto": "Reducción de costes y mejora en la calidad.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Incremento de la dependencia entre aplicaciones.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Exclusión de estándares en desarrollo.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Restricción a un entorno específico.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué concepto describe que SOA permite cambiar un servicio por otro sin alterar la lógica interna de la aplicación?",
+            "opciones": [
+                {
+                    "texto": "Flexibilidad.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Estandarización.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Interconectividad.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Escalabilidad.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué característica principal define a un servicio dentro de una Arquitectura Orientada a Servicios (SOA)?",
+            "opciones": [
+                {
+                    "texto": "Está basado en la comunicación directa entre hardware",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es independiente de la plataforma y se comunica entre aplicaciones",
+                    "correcta": true
+                },
+                {
+                    "texto": "Requiere una infraestructura dedicada para cada servicio",
+                    "correcta": false
+                },
+                {
+                    "texto": "Depende de un sistema operativo específico para funcionar",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes protocolos es utilizado principalmente por los Servicios Web para la comunicación?",
+            "opciones": [
+                {
+                    "texto": "SMTP",
+                    "correcta": false
+                },
+                {
+                    "texto": "HTTP/HTTPS",
+                    "correcta": true
+                },
+                {
+                    "texto": "FTP",
+                    "correcta": false
+                },
+                {
+                    "texto": "POP3",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Qué función cumple el WSDL (Web Services Description Language) en los Servicios Web?",
+            "opciones": [
+                {
+                    "texto": "Define el formato de los mensajes de comunicación entre servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Proporciona un repositorio de servicios disponibles",
+                    "correcta": false
+                },
+                {
+                    "texto": "Describir cómo acceder a un servicio y qué operaciones ofrece",
+                    "correcta": true
+                },
+                {
+                    "texto": "Establece las políticas de seguridad de los servicios",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Cuál es la principal diferencia entre REST y SOAP en el contexto de los Servicios Web?",
+            "opciones": [
+                {
+                    "texto": "REST utiliza un formato XML, mientras que SOAP utiliza JSON",
+                    "correcta": false
+                },
+                {
+                    "texto": "REST es un conjunto de principios arquitectónicos, mientras que SOAP es un protocolo basado en XML",
+                    "correcta": true
+                },
+                {
+                    "texto": "SOAP está basado en HTTP, mientras que REST no lo utiliza",
+                    "correcta": false
+                },
+                {
+                    "texto": "REST requiere servidores dedicados, mientras que SOAP es más flexible",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "El registro UDDI...",
+            "opciones": [
+                {
+                    "texto": "ofrece mecanismos de comunicación básicos",
+                    "correcta": false
+                },
+                {
+                    "texto": "ofrece una rápida mecanización de proceso de negocio",
+                    "correcta": false
+                },
+                {
+                    "texto": "tiene un rol y propósito similar al de los IDL",
+                    "correcta": false
+                },
+                {
+                    "texto": "especifica un marco para describir y descubrir WS",
+                    "correcta": true
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Qué característica es fundamental para los servicios en una",
+            "opciones": [
+                {
+                    "texto": "?",
+                    "correcta": false
+                },
+                {
+                    "texto": "Acoplamiento débil",
+                    "correcta": true
+                },
+                {
+                    "texto": "Dependencia de una sola plataforma",
+                    "correcta": false
+                },
+                {
+                    "texto": "Uso exclusivo de REST",
+                    "correcta": false
+                },
+                {
+                    "texto": "Administración centralizada de usuarios",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Qué elemento define las operaciones disponibles en un servicio web?",
+            "opciones": [
+                {
+                    "texto": "UDDI",
+                    "correcta": false
+                },
+                {
+                    "texto": "WSDL",
+                    "correcta": true
+                },
+                {
+                    "texto": "JSON",
+                    "correcta": false
+                },
+                {
+                    "texto": "BPMN",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Qué protocolo es esencial para el desarrollo de servicios web en SOA?",
+            "opciones": [
+                {
+                    "texto": "HTTPS",
+                    "correcta": false
+                },
+                {
+                    "texto": "FTP",
+                    "correcta": false
+                },
+                {
+                    "texto": "SOAP",
+                    "correcta": true
+                },
+                {
+                    "texto": "Telnet",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Qué significa que un sistema REST sea 'sin estado'?",
+            "opciones": [
+                {
+                    "texto": "Solo utiliza operaciones HTTP estándar",
+                    "correcta": false
+                },
+                {
+                    "texto": "No almacena información sobre las interacciones previas entre cliente y servidor",
+                    "correcta": true
+                },
+                {
+                    "texto": "No permite transacciones entre múltiples sistemas",
+                    "correcta": false
+                },
+                {
+                    "texto": "No requiere autenticación para los usuarios",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Qué concepto clave distingue SOA de otras arquitecturas?",
+            "opciones": [
+                {
+                    "texto": "Uso obligatorio de servicios web",
+                    "correcta": false
+                },
+                {
+                    "texto": "Separación estricta entre interfaz e implementación",
+                    "correcta": true
+                },
+                {
+                    "texto": "Acoplamiento fuerte entre servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ninguna de las anteriores es correcta",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Cuál es la diferencia principal entre un componente y un servicio?",
+            "opciones": [
+                {
+                    "texto": "Un servicio debe ser mantenido a lo largo de todo su ciclo de vida",
+                    "correcta": true
+                },
+                {
+                    "texto": "Los componentes son más costosos de desarrollar.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los servicios no requieren mantenimiento como los componentes.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los servicios se versionan, mientras que los componentes se mantienen.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes NO es una característica de los servicios?",
+            "opciones": [
+                {
+                    "texto": "Modularidad.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Granularidad.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Encapsulación.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Orientados a objetos.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "Señala la afirmación correcta respecto a REST.",
+            "opciones": [
+                {
+                    "texto": "Es un protocolo CON estado.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es un protocolo con arquitectura productor consumidor.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es un protocolo SIN estado.",
+                    "correcta": true
+                },
+                {
+                    "texto": "La salida puede variar aunque se mantenga la entrada.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes es el protocolo estándar utilizado por los servicios web?",
+            "opciones": [
+                {
+                    "texto": "HTTP/HTTPS.",
+                    "correcta": true
+                },
+                {
+                    "texto": "XML.",
+                    "correcta": false
+                },
+                {
+                    "texto": "WSDL.",
+                    "correcta": false
+                },
+                {
+                    "texto": "UDDI.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes protocolos sirve para el intercambio ligero de datos?",
+            "opciones": [
+                {
+                    "texto": "WSDL.",
+                    "correcta": false
+                },
+                {
+                    "texto": "JSON.",
+                    "correcta": true
+                },
+                {
+                    "texto": "UDDI.",
+                    "correcta": false
+                },
+                {
+                    "texto": "SOAP.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Servicios"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes es un tipo de patrón de operación?",
+            "opciones": [
+                {
+                    "texto": "request-response",
+                    "correcta": false
+                },
+                {
+                    "texto": "notification",
+                    "correcta": false
+                },
+                {
+                    "texto": "solicit-response",
+                    "correcta": false
+                },
+                {
+                    "texto": "send-receive",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes afirmaciones es incorrecta sobre los tipos de páginas en los directorios de empresas?",
+            "opciones": [
+                {
+                    "texto": "Páginas blancas: Dirección, contacto y otros identificadores conocidos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Páginas amarillas: Categorización industrial basada en taxonomías.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Páginas verdes: Información técnica sobre los servicios que aportan las propias empresas.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Páginas rojas: Información personal sobre los empleados de una empresa.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes elementos NO es parte de un mensaje SOAP?",
+            "opciones": [
+                {
+                    "texto": "Content",
+                    "correcta": true
+                },
+                {
+                    "texto": "Envelope",
+                    "correcta": false
+                },
+                {
+                    "texto": "Header",
+                    "correcta": false
+                },
+                {
+                    "texto": "Body",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre el \"SOAP Header\" es incorrecta?",
+            "opciones": [
+                {
+                    "texto": "El Header es opcional.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Si existe, debe ser la primera etiqueta del <Envelope>.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Puede haber varias etiquetas Header.",
+                    "correcta": false
+                },
+                {
+                    "texto": "El Header debe contener los datos del cuerpo del mensaje.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes subetiquetas NO es parte de la etiqueta <Fault> en un mensaje SOAP?",
+            "opciones": [
+                {
+                    "texto": "<faultcode>: Texto indicando el tipo de error.",
+                    "correcta": false
+                },
+                {
+                    "texto": "<faultstring>: Texto explicando el error.",
+                    "correcta": false
+                },
+                {
+                    "texto": "<faultactor>: Quien ha causado el fallo (los mensajes pasan por varios nodos).",
+                    "correcta": false
+                },
+                {
+                    "texto": "<errorDetails>: Información adicional sobre el error.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuáles son los 4 tipos de patrones de operación en WSDL (Web Services Description Language)?",
+            "opciones": [
+                {
+                    "texto": "request-response, solicit-response, notification y one-way",
+                    "correcta": true
+                },
+                {
+                    "texto": "input-output, server-client, push-pull(legs) y async-request",
+                    "correcta": false
+                },
+                {
+                    "texto": "send-receive, broadcast-unicast, query-reply y ping-pong",
+                    "correcta": false
+                },
+                {
+                    "texto": "start-end, random-transfer, unknown-operation y disconnect",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes patrones de operación en WSDL describe correctamente un caso donde el cliente envía un mensaje, pero no espera ninguna respuesta del servidor?",
+            "opciones": [
+                {
+                    "texto": "request-response",
+                    "correcta": false
+                },
+                {
+                    "texto": "solicit-response",
+                    "correcta": false
+                },
+                {
+                    "texto": "notification",
+                    "correcta": false
+                },
+                {
+                    "texto": "one-way",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuáles son los elementos de un mensaje SOAP?",
+            "opciones": [
+                {
+                    "texto": "Envelope, Header, Body y Fault",
+                    "correcta": true
+                },
+                {
+                    "texto": "Div, Footer y Error",
+                    "correcta": false
+                },
+                {
+                    "texto": "Container, Metadata, Data y biseps",
+                    "correcta": false
+                },
+                {
+                    "texto": "Start, Development, End y review",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuáles son las tres partes principales del registro de un negocio en UDDI?",
+            "opciones": [
+                {
+                    "texto": "Registro básico, servicios adicionales y datos opcionales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Páginas blancas, páginas amarillas y páginas verdes",
+                    "correcta": true
+                },
+                {
+                    "texto": "Dirección web, lista de servicios y tarifas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Páginas amarillo pálido, páginas rainbow y páginas verde oscuro",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Qué subetiquetas contiene la etiqueta raíz <definitions> en un XML de WSDL?",
+            "opciones": [
+                {
+                    "texto": "<types>, <message>, <portType>, <binding>, <service>",
+                    "correcta": true
+                },
+                {
+                    "texto": "<header>, <body>, <response>",
+                    "correcta": false
+                },
+                {
+                    "texto": "<type>, <operation>, <response>",
+                    "correcta": false
+                },
+                {
+                    "texto": "<services>, <messages>, <port>",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes no es un estándar perteneciente al apartado web?",
+            "opciones": [
+                {
+                    "texto": "WSDL",
+                    "correcta": false
+                },
+                {
+                    "texto": "XML",
+                    "correcta": false
+                },
+                {
+                    "texto": "UDDI",
+                    "correcta": false
+                },
+                {
+                    "texto": "SOAP",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes arrays de JSON está estructurado correctamente?",
+            "opciones": [
+                {
+                    "texto": "[{“nombre” : Pepe, “nacionalidad”:España, “trabajo”:Ingeniero Industrial}, {“nombre” : Almudena, “nacionalidad”:Francia, “trabajo”:Ingeniera de caminos}]",
+                    "correcta": false
+                },
+                {
+                    "texto": "[{“numero” : [“primero”:1, “segundo”:2], “puesto”:12, “parte”:derecha}, {“numero” : [“primero”:2,”segundo”:5], “puesto”:20, “parte”:izquierda}]",
+                    "correcta": false
+                },
+                {
+                    "texto": "[{“2”:”3”},{“3”:”5”},{“0”:”91111111”},{“87”:”0”}]",
+                    "correcta": true
+                },
+                {
+                    "texto": "[{“profesion”=”medico”, “nombre”=”Jose”, “apellido”=”Martínez”} , {“profesion”=”azafata”, “nombre”=”Lidia”, “apellido”=”Álvarez”}]",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "El documento ___ sirve para validar un XML:",
+            "opciones": [
+                {
+                    "texto": "JSON",
+                    "correcta": false
+                },
+                {
+                    "texto": "DTD",
+                    "correcta": true
+                },
+                {
+                    "texto": "WSDL",
+                    "correcta": false
+                },
+                {
+                    "texto": "XML-RPC",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes protocolos puede usar Cliente/Servidor?",
+            "opciones": [
+                {
+                    "texto": "MQTT",
+                    "correcta": false
+                },
+                {
+                    "texto": "XML-RPC",
+                    "correcta": false
+                },
+                {
+                    "texto": "SOAP",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas las anteriores",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes es un protocolo a nivel aplicación?",
+            "opciones": [
+                {
+                    "texto": "MQTT",
+                    "correcta": true
+                },
+                {
+                    "texto": "TCP",
+                    "correcta": false
+                },
+                {
+                    "texto": "IP",
+                    "correcta": false
+                },
+                {
+                    "texto": "SOAP",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes patrones de operación de WSDL describe una situación donde el servidor envía un mensaje sin esperar una respuesta del cliente?",
+            "opciones": [
+                {
+                    "texto": "One-way",
+                    "correcta": false
+                },
+                {
+                    "texto": "Request-response",
+                    "correcta": false
+                },
+                {
+                    "texto": "Solicit-response",
+                    "correcta": false
+                },
+                {
+                    "texto": "Notification",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "Indica que no forma parte del registro de un negocio en UDDI:",
+            "opciones": [
+                {
+                    "texto": "Páginas verdes",
+                    "correcta": false
+                },
+                {
+                    "texto": "Páginas amarillas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Páginas negras",
+                    "correcta": true
+                },
+                {
+                    "texto": "Páginas blancas",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes NO es un tipo de dato soportado en XML-RPC?",
+            "opciones": [
+                {
+                    "texto": "i4 o int",
+                    "correcta": false
+                },
+                {
+                    "texto": "double",
+                    "correcta": false
+                },
+                {
+                    "texto": "boolean",
+                    "correcta": false
+                },
+                {
+                    "texto": "object",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "Indica la respuesta falsa sobre SOAP",
+            "opciones": [
+                {
+                    "texto": "Es dependiente del lenguaje de del Sistema Operativo.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Utiliza XML para enviar mensajes.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Permite intercambiar documentos y invocar servicios remotos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Puede usar HTTP para el transporte pero también otros",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre los clientes MQTT es INCORRECTA?",
+            "opciones": [
+                {
+                    "texto": "Los clientes MQTT siempre se conectan a un broker de mensajes.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los clientes MQTT pueden ser tanto publicadores como suscriptores de mensajes.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los clientes MQTT solo pueden recolectar información de los sensores.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Los clientes MQTT pueden controlar los sensores a su cargo mediante comandos.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuales son algunos de los estándares SOA?",
+            "opciones": [
+                {
+                    "texto": "XML,JSON,SOAP",
+                    "correcta": true
+                },
+                {
+                    "texto": "HTTP, HTTPS, XMPP",
+                    "correcta": false
+                },
+                {
+                    "texto": "HTML, XML, Rest",
+                    "correcta": false
+                },
+                {
+                    "texto": "Rest, API, WSPD",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "Cual es un patrón de operación WSDL",
+            "opciones": [
+                {
+                    "texto": "One-way",
+                    "correcta": true
+                },
+                {
+                    "texto": "Multi-way",
+                    "correcta": false
+                },
+                {
+                    "texto": "exploration",
+                    "correcta": false
+                },
+                {
+                    "texto": "wait-response",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "Que tipo de paginas hay en UDDI",
+            "opciones": [
+                {
+                    "texto": "blancas, amarillas, verdes",
+                    "correcta": true
+                },
+                {
+                    "texto": "blancas, rojas, azules",
+                    "correcta": false
+                },
+                {
+                    "texto": "amarillas, negras, grises",
+                    "correcta": false
+                },
+                {
+                    "texto": "rojas, rosas, marrones",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes tipos de datos se utiliza para almacenar un número real con precisión de 64 bits en XML-RCP?",
+            "opciones": [
+                {
+                    "texto": "i4 o int",
+                    "correcta": false
+                },
+                {
+                    "texto": "boolean",
+                    "correcta": false
+                },
+                {
+                    "texto": "string",
+                    "correcta": false
+                },
+                {
+                    "texto": "double",
+                    "correcta": true
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "Que es JSON",
+            "opciones": [
+                {
+                    "texto": "un formato de texto que permite representar objetos de JS",
+                    "correcta": true
+                },
+                {
+                    "texto": "una aplicación de ofimatica",
+                    "correcta": false
+                },
+                {
+                    "texto": "una extensión de navegador para SOA",
+                    "correcta": false
+                },
+                {
+                    "texto": "una web especializada en SOA",
+                    "correcta": false
+                }
+            ],
+            "tema": "Estándares"
+        },
+        {
+            "enunciado": "¿A qué se corresponden las siglas de ESB?",
+            "opciones": [
+                {
+                    "texto": "Enterprise Service Bus",
+                    "correcta": true
+                },
+                {
+                    "texto": "Esquema de Seguridad Base",
+                    "correcta": false
+                },
+                {
+                    "texto": "Esquema Diferido de Servicios Básicos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Espacio de Soporte Básico",
+                    "correcta": false
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "En la etapa del Diseño Orientado a Servicios",
+            "opciones": [
+                {
+                    "texto": "Se fijan los parámetros de entrada, los parámetros de salida y el funcionamiento",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se fija el propietario del servicio y el nivel del servicio (SLA)",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se define el contrato o interfaz de servicio",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas las anteriores son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "El proceso de diseño y modelado es",
+            "opciones": [
+                {
+                    "texto": "Directo y Libre",
+                    "correcta": false
+                },
+                {
+                    "texto": "Iterativo e Incremental",
+                    "correcta": true
+                },
+                {
+                    "texto": "Progresivo y Funcional",
+                    "correcta": false
+                },
+                {
+                    "texto": "Iterativo no Incremental",
+                    "correcta": false
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "La publicación del servicio se lleva a cabo en la etapa",
+            "opciones": [
+                {
+                    "texto": "3. Diseño e Implementación del ESB",
+                    "correcta": false
+                },
+                {
+                    "texto": "6. Implementación",
+                    "correcta": false
+                },
+                {
+                    "texto": "8. Despliegue y Descubrimiento",
+                    "correcta": true
+                },
+                {
+                    "texto": "9. Mantenimiento y Monitorización",
+                    "correcta": false
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "En el Análisis Orientado a Servicios",
+            "opciones": [
+                {
+                    "texto": "Se identifican los servicios requeridos para la implementación de la arquitectura",
+                    "correcta": true
+                },
+                {
+                    "texto": "Se realiza la elección de la tecnología a usar, de forma justificada",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se realizan las pruebas de integración de servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se tendrá una idea de la organización, examinando diversos campos",
+                    "correcta": false
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "¿En qué fase se realizará la identificación de los servicios requeridos para la implantación de la arquitectura?",
+            "opciones": [
+                {
+                    "texto": "Fase del análisis orientado a servicios",
+                    "correcta": true
+                },
+                {
+                    "texto": "Fase del diseño e implementación del ESB",
+                    "correcta": false
+                },
+                {
+                    "texto": "Fase del diseño orientado a servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Fase de implementación",
+                    "correcta": false
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "En la fase de mantenimiento y monitorización.",
+            "opciones": [
+                {
+                    "texto": "Se realiza el despliegue del servicio en la arquitectura SOA",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se realizan pruebas de integración de los servicios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se llevan a cabo las labores de mantenimiento del servicio, así como la monitorización del funcionamiento del mismo",
+                    "correcta": true
+                },
+                {
+                    "texto": "En esta fase se pretende tener una idea de la organización",
+                    "correcta": false
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "En la fase de diseño orientado a servicios.",
+            "opciones": [
+                {
+                    "texto": "Se define el contrato o interfaz del servicio. Qué parámetros de entrada, que parámetros devuelve, qué es lo que hace (que tenga sentido para el negocio).",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se realizan pruebas de integración de los servicios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se llevan a cabo las labores de mantenimiento del servicio, así como la monitorización del funcionamiento del mismo",
+                    "correcta": true
+                },
+                {
+                    "texto": "En esta fase se realizará la identificación de los servicios requeridos para la implantación de la arquitectura.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "¿En qué fase se realiza el despliegue del servicio en la arquitectura SOA?",
+            "opciones": [
+                {
+                    "texto": "Fase de implementación",
+                    "correcta": true
+                },
+                {
+                    "texto": "Fase del diseño orientado a servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Fase de despliegue y descubrimiento",
+                    "correcta": false
+                },
+                {
+                    "texto": "Fase del diseño e implementación del ESB",
+                    "correcta": false
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "¿En qué fase del proceso se debe volver a empezar en caso de requerirse nuevos servicios?",
+            "opciones": [
+                {
+                    "texto": "Fase 1: Conocimiento de la organización",
+                    "correcta": false
+                },
+                {
+                    "texto": "Fase 6: Implementación",
+                    "correcta": false
+                },
+                {
+                    "texto": "Fase 4: Análisis orientado a servicios",
+                    "correcta": true
+                },
+                {
+                    "texto": "Fase 7: Pruebas",
+                    "correcta": false
+                }
+            ],
+            "tema": "Diseño y Modelado"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes es una característica de una arquitectura orientada a servicios (SOA)?",
+            "opciones": [
+                {
+                    "texto": "Proveer un lenguaje común entre servicios",
+                    "correcta": true
+                },
+                {
+                    "texto": "Evitar la comunicación entre servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Impedir el uso de metodologías de diseño",
+                    "correcta": false
+                },
+                {
+                    "texto": "No permitir el control de la arquitectura",
+                    "correcta": false
+                }
+            ],
+            "tema": "Arquitectura de Referencia"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes es un componente mínimo en una arquitectura SOA?",
+            "opciones": [
+                {
+                    "texto": "Usuarios de Negocio",
+                    "correcta": true
+                },
+                {
+                    "texto": "Juegos en línea",
+                    "correcta": false
+                },
+                {
+                    "texto": "Redes sociales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Aplicaciones de mensajería",
+                    "correcta": false
+                }
+            ],
+            "tema": "Arquitectura de Referencia"
+        },
+        {
+            "enunciado": "En una arquitectura SOA, ¿Quiénes son los Usuarios de Negocio?",
+            "opciones": [
+                {
+                    "texto": "Los administradores de la red de la empresa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los participantes de los procesos de negocio que acceden a las aplicaciones mediante diversas tecnologías",
+                    "correcta": true
+                },
+                {
+                    "texto": "Los desarrolladores de software que diseñan los servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los proveedores externos que ofrecen soporte técnico",
+                    "correcta": false
+                }
+            ],
+            "tema": "Arquitectura de Referencia"
+        },
+        {
+            "enunciado": "En una arquitectura SOA, ¿Qué son los Servicios de Negocio?",
+            "opciones": [
+                {
+                    "texto": "Funciones específicas del sistema operativo",
+                    "correcta": false
+                },
+                {
+                    "texto": "Componentes funcionales reutilizables en procesos y aplicaciones",
+                    "correcta": true
+                },
+                {
+                    "texto": "Elementos exclusivos para gestionar bases de datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Herramientas para diseñar interfaces gráficas",
+                    "correcta": false
+                }
+            ],
+            "tema": "Arquitectura de Referencia"
+        },
+        {
+            "enunciado": "¿Qué hacen los Servicios de Información en una arquitectura SOA?",
+            "opciones": [
+                {
+                    "texto": "Acceden a sistemas antiguos y los adaptan para SOA",
+                    "correcta": true
+                },
+                {
+                    "texto": "Diseñan páginas web",
+                    "correcta": false
+                },
+                {
+                    "texto": "Sustituyen sistemas viejos por nuevos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Administran redes de la empresa",
+                    "correcta": false
+                }
+            ],
+            "tema": "Arquitectura de Referencia"
+        },
+        {
+            "enunciado": "¿Cuál es el propósito principal de la Arquitectura de Referencia SOA?",
+            "opciones": [
+                {
+                    "texto": "Sustituir completamente los sistemas legados de la empresa.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Proveer un marco para estructurar componentes y procesos empresariales basados en servicios.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Centralizar todos los datos de la empresa en un único sistema.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Reducir la interacción entre los usuarios y los sistemas de negocio.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Arquitectura de Referencia"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes NO es un componente mínimo de la Arquitectura SOA?",
+            "opciones": [
+                {
+                    "texto": "Servicios de Presentación (Portlets).",
+                    "correcta": false
+                },
+                {
+                    "texto": "Procesos de Negocio.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Gestión de Recursos Humanos.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Sistemas Legados.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Arquitectura de Referencia"
+        },
+        {
+            "enunciado": "¿Qué ventaja principal ofrecen las aplicaciones SOA desarrolladas con tecnología de portales?",
+            "opciones": [
+                {
+                    "texto": "Eliminan la necesidad de integrar sistemas legados.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son más económicas que otros sistemas.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Permiten ajustar la interfaz de usuario para diferentes dispositivos con poco esfuerzo.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Funcionan exclusivamente en computadoras de escritorio.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Arquitectura de Referencia"
+        },
+        {
+            "enunciado": "¿Qué describe mejor un \"Servicio de Información\" en una Arquitectura SOA?",
+            "opciones": [
+                {
+                    "texto": "Un componente reutilizable que ejecuta procesos complejos de negocio.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un servicio atómico que accede directamente a recursos o sistemas legados.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Un portal que permite a los usuarios visualizar datos comerciales.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un sistema que reemplaza aplicaciones heredadas.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Arquitectura de Referencia"
+        },
+        {
+            "enunciado": "¿Qué es un ESB?",
+            "opciones": [
+                {
+                    "texto": "Es un Enterprise Service Bus",
+                    "correcta": true
+                },
+                {
+                    "texto": "Es un Esquema de Seguridad en Búsquedas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un bus en sistemas externos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas las anteriores con correctas",
+                    "correcta": false
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "Cuales son características de un ESB",
+            "opciones": [
+                {
+                    "texto": "Integración, gestión, interacción de servicios y comunicaciones",
+                    "correcta": true
+                },
+                {
+                    "texto": "Ser perfecto, modular y barato",
+                    "correcta": false
+                },
+                {
+                    "texto": "Eficiente, bonito y con minijuegos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ninguna de las anteriores",
+                    "correcta": false
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "Escenarios para el ESB",
+            "opciones": [
+                {
+                    "texto": "Integración de aplicaciones corporativas o como infraestructura medular para la arquitectura orientada a servicios.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Integración de aplicaciones móviles",
+                    "correcta": false
+                },
+                {
+                    "texto": "Integración de aplicaciones corporativas con IA o como infraestructura medular para la arquitectura orientada a servicios usando IA",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ninguna es correcta",
+                    "correcta": false
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "¿Un ESB ha de poder administrar?",
+            "opciones": [
+                {
+                    "texto": "No, nunca",
+                    "correcta": false
+                },
+                {
+                    "texto": "No, si hay datos de índole personal de por medio",
+                    "correcta": false
+                },
+                {
+                    "texto": "Si",
+                    "correcta": true
+                },
+                {
+                    "texto": "Ninguna es correcta",
+                    "correcta": false
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "¿Es necesario que un ESB sea capaz de integrar?",
+            "opciones": [
+                {
+                    "texto": "Si",
+                    "correcta": true
+                },
+                {
+                    "texto": "No",
+                    "correcta": false
+                },
+                {
+                    "texto": "Si, cuando hay sistemas legados de por medio",
+                    "correcta": false
+                },
+                {
+                    "texto": "No, porque muchas cosas no están diseñadas para comunicarse de formas distintas",
+                    "correcta": false
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "Una solución ESB debe poseer características que den soporte a las necesidades que cualquier componente, orientado a la utilización dentro de una arquitectura SOA, requiera. Estas características pueden ser categorizadas de acuerdo a:",
+            "opciones": [
+                {
+                    "texto": "Integración",
+                    "correcta": false
+                },
+                {
+                    "texto": "Gestión",
+                    "correcta": false
+                },
+                {
+                    "texto": "Interacción de Servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son Correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "¿Cuál es una característica clave de la capa de comunicaciones de un ESB (Enterprise Service Bus)?",
+            "opciones": [
+                {
+                    "texto": "Solo puede utilizar el protocolo HTTP para las interacciones.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Facilita la interacción entre diferentes servicios mediante múltiples protocolos.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Está diseñado exclusivamente para aplicaciones web.",
+                    "correcta": false
+                },
+                {
+                    "texto": "No permite la comunicación con middleware orientado a mensajería.",
+                    "correcta": false
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "¿Cuál es un requisito clave para la integración en un ESB?",
+            "opciones": [
+                {
+                    "texto": "Solo puede integrar sistemas modernos que soporten interacciones orientadas a servicios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Requiere el uso exclusivo de adaptadores JCA para la integración.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Permite integrar sistemas legacy y paquetes de software utilizando múltiples protocolos y adaptadores.",
+                    "correcta": true
+                },
+                {
+                    "texto": "No es compatible con protocolos como JDBC o FTP.",
+                    "correcta": false
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "De forma genérica, diremos que un ESB es:",
+            "opciones": [
+                {
+                    "texto": "Un producto",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una arquitectura.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un producto que evoluciona desde una arquitectura.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Todas son falsas",
+                    "correcta": false
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "¿En qué escenarios básicos se basa una empresa para adoptar una infraestructura tecnológica como un ESB?",
+            "opciones": [
+                {
+                    "texto": "Integración de aplicaciones corporativas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Como infraestructura medular para la arquitectura orientada a servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "a y b son Correctas",
+                    "correcta": true
+                },
+                {
+                    "texto": "Todas son falsas",
+                    "correcta": false
+                }
+            ],
+            "tema": "ESB"
+        },
+        {
+            "enunciado": "Que se define en el contrato o interfaz de servicio",
+            "opciones": [
+                {
+                    "texto": "Los parámetros de entrada",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los parámetros que devuelve",
+                    "correcta": false
+                },
+                {
+                    "texto": "Que es lo que hace",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "En los servicios de presentación (portlets) cuales son los componentes reutilizables que corresponderán con secciones reutilizables de páginas Web.",
+            "opciones": [
+                {
+                    "texto": "Lista de pendientes",
+                    "correcta": false
+                },
+                {
+                    "texto": "Calendario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Última publicación",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "Cuales son los servicios tanto de negocio, como de información, y asimilación a los procesos de negocio?",
+            "opciones": [
+                {
+                    "texto": "Registrar usuario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Agregar comentario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Obtener publicación reciente",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "Que es ESB",
+            "opciones": [
+                {
+                    "texto": "Enterprise Service Bus",
+                    "correcta": true
+                },
+                {
+                    "texto": "Encrypted Storage Backup",
+                    "correcta": false
+                },
+                {
+                    "texto": "Elastic Storage Block",
+                    "correcta": false
+                },
+                {
+                    "texto": "Edge Security Box",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "Que puede ser un usuario de negocio",
+            "opciones": [
+                {
+                    "texto": "Una persona",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un proceso",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una aplicación",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "¿Qué se busca describir en el apartado de Procesos de Negocio de la Organización?",
+            "opciones": [
+                {
+                    "texto": "Las metas globales de la organización y sus departamentos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los servicios legados y su reutilización",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las actividades realizadas y cómo se llevan a cabo en la organización",
+                    "correcta": true
+                },
+                {
+                    "texto": "Las interacciones con sistemas externos a la organización.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "En la descripción de las interacciones entre los procesos que se llevan a cabo en cada una de las partes de la organización, ¿qué se debe reflejar?",
+            "opciones": [
+                {
+                    "texto": " Los objetivos de cada departamento",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las entradas y salidas de los procesos.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Los servicios ya automatizados",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los sistemas informáticos a integrar",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "¿Cuál es el propósito principal del análisis de la tecnología existente?",
+            "opciones": [
+                {
+                    "texto": "Evaluar los procesos de comunicación de las aplicaciones utilizadas.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Identificar los objetivos de cada departamento.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Diseñar directamente los puertos del ESB.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Automatizar todos los procesos internos de la organización.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "¿Qué factores se consideran al diseñar el ESB (Enterprise Service Bus)?",
+            "opciones": [
+                {
+                    "texto": "Los objetivos estratégicos de la organización.",
+                    "correcta": false
+                },
+                {
+                    "texto": "La descripción de los procesos no automatizados.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las interacciones externas con proveedores.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las tecnologías de comunicación y detalles como tipología de mensajes, peticiones y respuestas.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "¿Qué se utiliza en el análisis orientado a servicios para representar los servicios a implementar?",
+            "opciones": [
+                {
+                    "texto": "Lenguajes de modelado específicos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Casos de uso.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Diagramas de despliegue.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Pruebas correctivas.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "¿Qué se describe en los procesos de negocio de la organización?",
+            "opciones": [
+                {
+                    "texto": "Las tecnologías utilizadas en los servidores",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las actividades y cómo se llevan a cabo en la organización",
+                    "correcta": true
+                },
+                {
+                    "texto": "Las estrategias de marketing y ventas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los costos asociados a cada actividad",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "En el análisis orientado a servicios, un usuario de negocio puede ser:",
+            "opciones": [
+                {
+                    "texto": "Solo una persona que interactúa con el sistema",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un proceso, una persona o una aplicación",
+                    "correcta": true
+                },
+                {
+                    "texto": "Un dispositivo físico que almacena datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Exclusivamente una aplicación tecnológica",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes opciones es una tecnología que se puede utilizar para la implementación servicios?",
+            "opciones": [
+                {
+                    "texto": "Web Services",
+                    "correcta": false
+                },
+                {
+                    "texto": "RPC",
+                    "correcta": false
+                },
+                {
+                    "texto": "Server Sockets",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "¿Qué se define en el contrato o interfaz de un servicio durante el diseño orientado a servicios?",
+            "opciones": [
+                {
+                    "texto": "Los diagramas de despliegue y su localización",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los parámetros de entrada, salida y su propósito relacionado con el negocio",
+                    "correcta": true
+                },
+                {
+                    "texto": "El hardware necesario para implementar los servicios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las pruebas necesarias para verificar el servicio",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "¿Qué caracteriza a las pruebas correctivas en el desarrollo de servicios?",
+            "opciones": [
+                {
+                    "texto": "Aseguran el diseño inicial sin realizar cambios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Detectan problemas y permiten corregirlos volviendo a fases previas",
+                    "correcta": true
+                },
+                {
+                    "texto": "Validan el despliegue en producción sin retorno a fases anteriores",
+                    "correcta": false
+                },
+                {
+                    "texto": "Están limitadas a la funcionalidad de los logs",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería SOA"
+        },
+        {
+            "enunciado": "¿Cuál es una política recomendada para asegurar un frontend en una arquitectura SOA?",
+            "opciones": [
+                {
+                    "texto": "Asignar roles específicos a conjuntos de flujos de navegación.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Permitir acceso sin credenciales para mejorar la experiencia del usuario.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Gestionar cada usuario final directamente desde el backend.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Limitar el acceso a un único rol universal para simplificar la gestión.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Quién es el responsable de la seguridad de la información en una organización, específicamente en el ámbito de la ciberseguridad?",
+            "opciones": [
+                {
+                    "texto": "Chief Executive Officer (CEO)",
+                    "correcta": false
+                },
+                {
+                    "texto": "Chief Security Officer (CSO)",
+                    "correcta": false
+                },
+                {
+                    "texto": "Chief Information Security Officer (CISO)",
+                    "correcta": true
+                },
+                {
+                    "texto": "Chief Technology Officer (CTO)",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Qué estándar describe un método para implantar un sistema de gestión de la seguridad de la información?",
+            "opciones": [
+                {
+                    "texto": "ISO/9001",
+                    "correcta": false
+                },
+                {
+                    "texto": "ISO/27001",
+                    "correcta": true
+                },
+                {
+                    "texto": "ITIL",
+                    "correcta": false
+                },
+                {
+                    "texto": "COBIT",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Cuál es una función clave del Protocolo Simple de Acceso a Objetos (SOAP) en la",
+            "opciones": [
+                {
+                    "texto": "Proporcionar almacenamiento seguro para contraseñas.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Crear funciones de comunicación seguras entre entornos de software.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Evitar la descentralización de datos en sistemas distribuidos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Garantizar la confidencialidad mediante políticas basadas en roles.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Cuál es uno de los principales objetivos de la seguridad en arquitecturas SOA?",
+            "opciones": [
+                {
+                    "texto": "Proteger exclusivamente contra ataques físicos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Implementar seguridad solo en programas específicos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Proporcionar una seguridad integral en sistemas complejos.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Evitar la descentralización de los servicios.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Cuál es el principal beneficio que ofrece la seguridad en SOA?",
+            "opciones": [
+                {
+                    "texto": "Aumentar la velocidad de procesamiento de servicios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Proteger contra ataques y proporcionar monitorización.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Reducir los costos operativos de los servicios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Eliminar la necesidad de sistemas descentralizados.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Qué estándar internacional describe un método para implantar un sistema de gestión de la seguridad de la información?",
+            "opciones": [
+                {
+                    "texto": "ISO/9001.",
+                    "correcta": false
+                },
+                {
+                    "texto": "ISO/14001.",
+                    "correcta": false
+                },
+                {
+                    "texto": "ISO/27001.",
+                    "correcta": true
+                },
+                {
+                    "texto": "ISO/31000.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes herramientas se utiliza en SOA para transmitir datos cifrados mediante un sistema de token?",
+            "opciones": [
+                {
+                    "texto": "Web Services Security (WSS).",
+                    "correcta": true
+                },
+                {
+                    "texto": "XML Path Language (XPath).",
+                    "correcta": false
+                },
+                {
+                    "texto": "Java Security Manager (JSM).",
+                    "correcta": false
+                },
+                {
+                    "texto": "Data Encryption Standard (DES).",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "Según las políticas de seguridad en SOA, ¿qué ventaja tiene utilizar usuarios de aplicación en lugar de usuarios individuales?",
+            "opciones": [
+                {
+                    "texto": "Incrementa la confidencialidad de las credenciales del usuario final.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Simplifica la gestión de accesos y reduce su complejidad.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Evita la propagación de credenciales entre servicios.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Mejora la experiencia del usuario en el frontend.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Cuál es un paso clave para implantar un modelo de seguridad?",
+            "opciones": [
+                {
+                    "texto": "Participación de la alta dirección.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Enfoque adaptado a la organización.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Hacer fuerte al usuario (formación).",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas las respuestas anteriores son correctas.",
+                    "correcta": true
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Qué estándar describe un método para implantar un sistema de gestión de la seguridad de la información?",
+            "opciones": [
+                {
+                    "texto": "ISO/27001",
+                    "correcta": true
+                },
+                {
+                    "texto": "SOA/2008",
+                    "correcta": false
+                },
+                {
+                    "texto": "HTTP/2",
+                    "correcta": false
+                },
+                {
+                    "texto": "SOAP/1.2",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Qué herramienta se utiliza comúnmente en SOA para la seguridad en la comunicación mediante tokens?",
+            "opciones": [
+                {
+                    "texto": "REST",
+                    "correcta": false
+                },
+                {
+                    "texto": "Web Services Security (WSS)",
+                    "correcta": true
+                },
+                {
+                    "texto": "FTP",
+                    "correcta": false
+                },
+                {
+                    "texto": "HTML5",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Cuál es la función principal de un CISO (Chief Information Security Officer)?",
+            "opciones": [
+                {
+                    "texto": "Gestionar recursos humanos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ser responsable de la seguridad de la información.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Crear nuevos sistemas de software.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Proteger la infraestructura física.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Qué garantiza una política de seguridad informática?",
+            "opciones": [
+                {
+                    "texto": "Velocidad de acceso a internet.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Mayor almacenamiento en la nube.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Confidencialidad, integridad y disponibilidad de la información.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Instalación de aplicaciones nuevas.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Qué debe incluir una política de seguridad SOA?",
+            "opciones": [
+                {
+                    "texto": "Solo reglas para hardware.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Normas para proteger la información, procesos y personal.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Configuraciones de redes privadas.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Procedimientos para programar en Visual Basic.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad SOA"
+        },
+        {
+            "enunciado": "¿Cuál es el objetivo principal de la Gestión por Procesos de Negocio (BPM)?",
+            "opciones": [
+                {
+                    "texto": "Crear interfaces gráficas intuitivas para usuarios finales.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Diseñar y analizar procesos para alinearlos con objetivos empresariales.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Eliminar todos los roles humanos en los procesos de negocio.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Sustituir los sistemas CRM y HRM en las empresas.",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes es una notación gráfica comúnmente utilizada en BPM?",
+            "opciones": [
+                {
+                    "texto": "XML",
+                    "correcta": false
+                },
+                {
+                    "texto": "HTTPS",
+                    "correcta": false
+                },
+                {
+                    "texto": "EPC",
+                    "correcta": true
+                },
+                {
+                    "texto": "SQL",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "¿Qué componente de BPM se encarga de ejecutar los procesos modelados en BPMN?",
+            "opciones": [
+                {
+                    "texto": "Simulador de Proceso de Negocio.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Motor de Procesos de Negocio.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Motor de Reglas de Negocio.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Interfaz Web.",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "En el ciclo de vida de BPM, ¿qué etapa proporciona indicadores de desempeño para verificar el alineamiento con los objetivos empresariales?",
+            "opciones": [
+                {
+                    "texto": "Identificación.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Análisis.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Monitorización.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Implementación.",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "¿Cuál es una ventaja clave de utilizar BPM?",
+            "opciones": [
+                {
+                    "texto": "Aumenta la dependencia de los equipos de desarrollo.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Reduce la transparencia en los procesos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Facilita el escalado de procesos a nivel global.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Aumenta los costos de implementación.",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "Qué es BMP",
+            "opciones": [
+                {
+                    "texto": "Gestion de Procesos de Negocio",
+                    "correcta": true
+                },
+                {
+                    "texto": "Bolsa Mundial de Pago",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una aplicación para gestionar la economía de la empresa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un software contra los hackers",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "Componentes de un BPM",
+            "opciones": [
+                {
+                    "texto": "Motor de procesos de negocio",
+                    "correcta": false
+                },
+                {
+                    "texto": "Interfaz web",
+                    "correcta": false
+                },
+                {
+                    "texto": "Herramienta de Business Process Modeling",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "Cuantos ciclos tiene el ciclo de vida de un BPM",
+            "opciones": [
+                {
+                    "texto": "4",
+                    "correcta": false
+                },
+                {
+                    "texto": "3",
+                    "correcta": false
+                },
+                {
+                    "texto": "6",
+                    "correcta": true
+                },
+                {
+                    "texto": "1",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "Cuales son ventajas de un BPM",
+            "opciones": [
+                {
+                    "texto": "Mayor eficiencia y ahorro de costos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Mayor experiencia de empleado y cliente",
+                    "correcta": false
+                },
+                {
+                    "texto": "Procesos más escalables",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "Cual es la primera etapa del ciclo de vida del BPM",
+            "opciones": [
+                {
+                    "texto": "Identificación",
+                    "correcta": true
+                },
+                {
+                    "texto": "Optimizacion",
+                    "correcta": false
+                },
+                {
+                    "texto": "Desarrollo",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ejecucion",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "¿Cuál es el procedimiento correcto para un Business Process Management?",
+            "opciones": [
+                {
+                    "texto": "Identificación, análisis, desarrollo, ejecución, monitorización y optimización.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Identificación, desarrollo, análisis, ejecución, monitorización y optimización.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Identificación, análisis, desarrollo, monitorización, ejecución y optimización.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Identificación, análisis, desarrollo, optimización, monitorización y ejecución.",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "En el BPM centrada en la integración…",
+            "opciones": [
+                {
+                    "texto": "No se requiere mucha participación humana.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Dependen mas de las API y del mecanismo que integran los datos entre sistemas.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ninguna es correcta.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las dos afirmaciones son correctas.",
+                    "correcta": true
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "¿Cuál es el componente que proporciona la información de quien ejecuta las tareas?",
+            "opciones": [
+                {
+                    "texto": "Herramienta de desarrollo de procesos de negocio.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Motor de procesos de negocio.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Interfaz de web.",
+                    "correcta": true
+                },
+                {
+                    "texto": "Simulador de proceso de negocio.",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "¿Cuál es el BPM que facilita la responsabilización de los individuos a lo largo del proceso?",
+            "opciones": [
+                {
+                    "texto": "El centrado en la integración",
+                    "correcta": false
+                },
+                {
+                    "texto": "El centrado en el humano",
+                    "correcta": true
+                },
+                {
+                    "texto": "El centrado en documentos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ninguno de los anteriores",
+                    "correcta": false
+                }
+            ],
+            "tema": "BMP"
+        },
+        {
+            "enunciado": "Una de las ventajas de usar BPM es:",
+            "opciones": [
+                {
+                    "texto": "Mayor experiencia de empleado y cliente.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Mayor eficiencia y ahorro de costos.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Menos dependencia de los equipos de desarrollo.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas las opciones anteriores son verdaderas.",
+                    "correcta": true
+                }
+            ],
+            "tema": "BMP"
+        }
+    ]
+}
