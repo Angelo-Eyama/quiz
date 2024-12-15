@@ -29,6 +29,10 @@ const filterByThemes = (array: Pregunta[], themes: string[]) => {
     [array[i], array[j]] = [array[j], array[i]];
   }
 
+  //Verificamos si el array de temas está vacío
+  if (!themes.length) {
+    return array;
+  }
   let themeArray = array.filter((pregunta) => themes.includes(pregunta.tema));
   return themeArray;
 };
@@ -41,7 +45,7 @@ function App() {
 
   useEffect(() => {
     // Filtramos las preguntas por los temas indicados en el array y los mezclamos
-    const preguntasMezcladas = filterByThemes([...preguntas], ['Redes']);
+    const preguntasMezcladas = filterByThemes([...preguntas], []);
     setpreguntas(preguntasMezcladas);
     preguntas.forEach((pregunta: Pregunta) => {
       shuffleArray(pregunta.opciones);
