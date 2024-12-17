@@ -82,6 +82,9 @@ d) Azure
 
 Puedes personalizar las preguntas y respuestas editando el archivo `preguntas.json`. Asegúrate de seguir el formato especificado para evitar errores.
 
+Tambien puedes añadir temario de asignaturas distintas, solo tienes que guardarlos en otro archivo json y modificar el archivo `App.tsx` para que se cargue el archivo deseado.
+
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que te gustaría realizar.

@@ -43,12 +43,15 @@ function App() {
   const [preguntas, setpreguntas] = useState<Pregunta[]>(JSON.parse(JSON.stringify(preguntasASIJSON)).preguntas);
   const [preguntaActual, setPreguntaActual] = useState<Pregunta>(preguntas[0]);
   const [contador, setContador] = useState(1);
+  const [aciertos, setAciertos] = useState(0);
+  const [errores, setErrores] = useState(0);
   const maxContador = preguntas.length;
 
   useEffect(() => {
     // Filtramos las preguntas por los temas indicados en el array y los mezclamos
     const preguntasMezcladas = filterByThemes([...preguntas], []);
     setpreguntas(preguntasMezcladas);
+    setPreguntaActual(preguntasMezcladas[0]);
     preguntas.forEach((pregunta: Pregunta) => {
       shuffleArray(pregunta.opciones);
     });
@@ -86,13 +89,15 @@ function App() {
       target.classList.remove('bg-white');
       target.classList.remove('hover:bg-gray-400');
       target.classList.add('bg-green-400');
+      setAciertos( aciertos + 1 );
     } else {
+      setErrores( errores + 1 );
       target.classList.remove('bg-white');
       target.classList.remove('hover:bg-gray-400');
       target.classList.add('bg-red-400');
     }
 
-    // Congelamos la ejecución por 2 segundos
+    // Congelamos la ejecución por unos segundos
     setTimeout(() => {
       //Quitamos el color de la respuesta
       esCorrecta ? target.classList.remove('bg-green-400') : target.classList.remove('bg-red-400');
@@ -107,6 +112,8 @@ function App() {
 
   const handleReset = () => {
     setContador(1);
+    setAciertos(0);
+    setErrores(0);
     shuffleArray(preguntas);
     preguntas.forEach((pregunta: Pregunta) => {
       shuffleArray(pregunta.opciones);
@@ -131,6 +138,7 @@ function App() {
     <main className='container mx-auto p-4 content-center'>
       <Question
         tema={tema}
+        puntuacion={[aciertos, errores]}
         contador={contador}
         maxContador={maxContador}
         preguntaActual={preguntaActual}
@@ -144,7 +152,6 @@ function App() {
       />
     </main>
   );
-
 }
 
 export default App;
