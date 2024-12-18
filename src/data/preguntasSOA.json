@@ -221,12 +221,8 @@
             "tema": "Servicios"
         },
         {
-            "enunciado": "¿Qué característica es fundamental para los servicios en una",
+            "enunciado": "¿Qué característica es fundamental para los servicios en una arquitectura orientada a servicios (SOA)?",
             "opciones": [
-                {
-                    "texto": "?",
-                    "correcta": false
-                },
                 {
                     "texto": "Acoplamiento débil",
                     "correcta": true

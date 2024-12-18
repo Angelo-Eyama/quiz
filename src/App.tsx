@@ -39,8 +39,8 @@ const filterByThemes = (array: Pregunta[], themes: string[]) => {
 };
 
 function App() {
-  const [tema, setTema] = useState('ASI');
-  const [preguntas, setpreguntas] = useState<Pregunta[]>(JSON.parse(JSON.stringify(preguntasASIJSON)).preguntas);
+  const [tema, setTema] = useState('SOA');
+  const [preguntas, setpreguntas] = useState<Pregunta[]>(JSON.parse(JSON.stringify(preguntasSOAJSON)).preguntas);
   const [preguntaActual, setPreguntaActual] = useState<Pregunta>(preguntas[0]);
   const [contador, setContador] = useState(1);
   const [aciertos, setAciertos] = useState(0);
@@ -49,7 +49,7 @@ function App() {
 
   useEffect(() => {
     // Filtramos las preguntas por los temas indicados en el array y los mezclamos
-    const preguntasMezcladas = filterByThemes([...preguntas], []);
+    const preguntasMezcladas = filterByThemes([...preguntas], ['Introducción']);
     setpreguntas(preguntasMezcladas);
     setPreguntaActual(preguntasMezcladas[0]);
     preguntas.forEach((pregunta: Pregunta) => {
@@ -60,7 +60,7 @@ function App() {
   const handleNext = () => {
     const index = preguntas.indexOf(preguntaActual);
     if (index < preguntas.length - 1) {
-      setContador(contador + 1);
+      setContador((contador % maxContador) + 1);
       setPreguntaActual(preguntas[index + 1]);
     }
     else {
@@ -72,12 +72,12 @@ function App() {
   const handleBack = () => {
     const index = preguntas.indexOf(preguntaActual);
     if (index > 0) {
-      setContador((contador - 1) % maxContador + 1);
       setPreguntaActual(preguntas[index - 1]);
+      setContador(((contador - 2 + maxContador) % maxContador) + 1);
     }
     else {
       setPreguntaActual(preguntas[preguntas.length - 1]);
-      setContador(preguntas.length - 1);
+      setContador(maxContador);
     }
   };
 
