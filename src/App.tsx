@@ -49,7 +49,7 @@ function App() {
 
   useEffect(() => {
     // Filtramos las preguntas por los temas indicados en el array y los mezclamos
-    const preguntasMezcladas = filterByThemes([...preguntas], ['Introducción']);
+    const preguntasMezcladas = filterByThemes([...preguntas], []);
     setpreguntas(preguntasMezcladas);
     setPreguntaActual(preguntasMezcladas[0]);
     preguntas.forEach((pregunta: Pregunta) => {
