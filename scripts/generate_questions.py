@@ -1,8 +1,9 @@
 # Se debe volver a procesar todo porque se ha reiniciado el estado de ejecución.
 import json
-
-# Recargar el archivo corregido
-file_path_corrected = 'preguntas.txt'
+import os
+# Obtiene la ruta completa del directorio donde está el script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path_corrected = os.path.join(script_dir, 'preguntas.txt')
 
 with open(file_path_corrected, 'r', encoding='utf-8') as file:
     contenido_correcto = file.read()
