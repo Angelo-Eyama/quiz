@@ -441,7 +441,7 @@
             "tema": "Servicios"
         },
         {
-            "enunciado": "¿Cuál de los siguientes es un tipo de patrón de operación?",
+            "enunciado": "¿Cuál de los siguientes NO es un tipo de patrón de operación?",
             "opciones": [
                 {
                     "texto": "request-response",
@@ -1149,7 +1149,7 @@
             "opciones": [
                 {
                     "texto": "Se define el contrato o interfaz del servicio. Qué parámetros de entrada, que parámetros devuelve, qué es lo que hace (que tenga sentido para el negocio).",
-                    "correcta": false
+                    "correcta": true
                 },
                 {
                     "texto": "Se realizan pruebas de integración de los servicios.",
@@ -1157,7 +1157,7 @@
                 },
                 {
                     "texto": "Se llevan a cabo las labores de mantenimiento del servicio, así como la monitorización del funcionamiento del mismo",
-                    "correcta": true
+                    "correcta": false
                 },
                 {
                     "texto": "En esta fase se realizará la identificación de los servicios requeridos para la implantación de la arquitectura.",
@@ -1171,7 +1171,7 @@
             "opciones": [
                 {
                     "texto": "Fase de implementación",
-                    "correcta": true
+                    "correcta": false
                 },
                 {
                     "texto": "Fase del diseño orientado a servicios",
@@ -1179,7 +1179,7 @@
                 },
                 {
                     "texto": "Fase de despliegue y descubrimiento",
-                    "correcta": false
+                    "correcta": true
                 },
                 {
                     "texto": "Fase del diseño e implementación del ESB",
@@ -2025,7 +2025,7 @@
             "tema": "Seguridad SOA"
         },
         {
-            "enunciado": "¿Cuál es una función clave del Protocolo Simple de Acceso a Objetos (SOAP) en la",
+            "enunciado": "¿Cuál es una función clave del Protocolo Simple de Acceso a Objetos (SOAP) en la seguridad de SOA?",
             "opciones": [
                 {
                     "texto": "Proporcionar almacenamiento seguro para contraseñas.",
