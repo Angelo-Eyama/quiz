@@ -6,7 +6,6 @@ interface Opcion {
 }
 
 interface QuestionProps {
-    tema: string;
     contador: number;
     puntuacion: [aciertos: number, errores: number];
     maxContador: number;
@@ -18,10 +17,9 @@ interface QuestionProps {
     handleAnswer: (e: React.MouseEvent<HTMLButtonElement>, esCorrecta: boolean) => void;
 }
 
-const Question: React.FC<QuestionProps> = ({ tema, puntuacion, contador, maxContador, preguntaActual, handleAnswer }) => {
+const Question: React.FC<QuestionProps> = ({ puntuacion, contador, maxContador, preguntaActual, handleAnswer }) => {
     return (
         <div>
-            <h1 className='text-5xl mb-7 text-center font-bold'>Test de {tema}</h1>
             <p className='text-xl text-center mb-4'>Pregunta {contador} de {maxContador}</p>
             <div className="flex justify-center">
                 <p className='text-xl text-center mb-4 w-fit p-3 border-2 border-white rounded-xl'>Aciertos: {puntuacion[0]} &emsp; | &emsp; Errores: {puntuacion[1]}</p>

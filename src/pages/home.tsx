@@ -12,9 +12,7 @@ const Home: React.FC = () => {
     };
 
     const handleSubmit = () => {
-        if (file) {
-            console.log("Archivo subido:", file.name);
-            
+        if (file) {            
             // Crear una instancia de FileReader
             const reader = new FileReader();
             
@@ -23,14 +21,8 @@ const Home: React.FC = () => {
                 try {
                     // Intentar parsear el contenido como JSON
                     const contenidoJSON = JSON.parse(e.target?.result as string);
-                    
-                    // Aquí tienes el contenido del JSON
-                    console.log("Contenido del JSON:", contenidoJSON);
-                    
                     // Validar el JSON
                     if (validate(contenidoJSON)) {
-                        // alert("Archivo JSON válido.");
-                        // Aquí puedes hacer algo con el contenido JSON válido
                         navigate("/quiz", {
                             state: { quizData: contenidoJSON}
                         })
