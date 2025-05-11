@@ -74,7 +74,46 @@ const Home: React.FC = () => {
             </button>
 
             <p className="mb-4 text-center"> O... puedes prepararte para el examen de Seguridad Informática. 👀 </p>
-            <DialogMessage />
+            <DialogMessage
+                buttonText="Prueba de Seguridad"
+                dialogTitle="No disponible"
+                dialogDescription={
+                    <>
+                        Hola! Esta sección aún no está disponible ya que no tengo preparadas las preguntas para el examen de Seguridad Informática.
+                        <br /> <br />
+                        Si quieres ayudarme a publicar preguntas para el examen, puedes hacerlo preparando el archivo JSON con las preguntas siguiendo el
+                        formato de ejemplo que puedes encontrar en el <a href="https://github.com/Angelo-Eyama/quiz?tab=readme-ov-file#script-de-python" target="_blank" className="text-blue-500">repositorio de GitHub</a>.
+                        <br />
+                    </>}
+                dialogCloseText="Volver"
+            />
+
+            <div className="fixed top-4 right-4 bg-gray-100 border border-gray-300 rounded-lg shadow-lg">
+                <DialogMessage
+                    buttonText="¿JSON inválido?"
+                    dialogTitle="Formato del archivo JSON"
+                    dialogDescription={
+                        <>
+                            El archivo JSON debe contener un array de <b>preguntas</b>, cada una con un <b>tema, enunciado y opciones.</b><br /><br />
+                            Cada opción debe tener un <b>texto y un booleano</b> que indique si es correcta o no.<br />
+                            Aquí tienes un ejemplo:<br /><br />
+                            <code>{`{
+                                "preguntas": [
+                                    {
+                                    "enunciado": "¿Qué es un ataque XSS?",
+                                    "tema": "Seguridad Web",
+                                    "opciones": [
+                                        { "texto": "Un tipo de inyección SQL", "correcta": false },
+                                        { "texto": "Un ataque de inyección de scripts", "correcta": true }
+                                    ]
+                                    }
+                                ]
+                                }`}</code>
+                        </>
+                    }
+                    dialogCloseText="Volver"
+                />
+            </div>
         </div>
     );
 };
