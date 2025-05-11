@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { validate } from "../lib/utils";
 import { useNavigate } from "react-router-dom";
 import { Input } from "@/components/ui/input";
+import { DialogMessage } from "@/components/dialogMessage";
 
 const Home: React.FC = () => {
     const [file, setFile] = useState<File | null>(null);
@@ -13,10 +14,10 @@ const Home: React.FC = () => {
     };
 
     const handleSubmit = () => {
-        if (file) {            
+        if (file) {
             // Crear una instancia de FileReader
             const reader = new FileReader();
-            
+
             // Configurar el evento onload que se ejecuta cuando termina de leer
             reader.onload = (e) => {
                 try {
@@ -25,7 +26,7 @@ const Home: React.FC = () => {
                     // Validar el JSON
                     if (validate(contenidoJSON)) {
                         navigate("/quiz", {
-                            state: { quizData: contenidoJSON}
+                            state: { quizData: contenidoJSON }
                         })
                     } else {
                         alert("Archivo JSON inválido.");
@@ -37,40 +38,43 @@ const Home: React.FC = () => {
                     alert("El archivo no contiene un JSON válido.");
                 }
             };
-            
+
             // Configurar el evento onerror
             reader.onerror = () => {
                 console.error("Error al leer el archivo");
                 alert("Error al leer el archivo.");
             };
-            
+
             // Leer el archivo como texto
             reader.readAsText(file);
         } else {
             alert("Por favor, sube un archivo JSON.");
         }
     };
-
     return (
         <div className="flex flex-col items-center justify-center min-h-screen p-4">
             <h1 className="text-2xl font-bold mb-4">Bienvenido al Quiz App</h1>
             <p className="mb-4 text-center">
                 Sube un archivo JSON con preguntas tipo test para comenzar.
             </p>
-            <div className="mb-4">
+            <div className="mb-4 border">
                 <Input
                     type="file"
                     accept=".json"
                     onChange={handleFileChange}
-                    className="w-full"
+                    className="cursor-pointer w-full rounded shadow hover:bg-gray-100"
+                    placeholder="Selecciona un archivo JSON"
                 />
             </div>
             <button
                 onClick={handleSubmit}
-                className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 cursor-pointer mb-2"
             >
                 Comenzar Quiz
             </button>
+
+            <p className="mb-4 text-center"> O... puedes prepararte para el examen de Seguridad Informática. 👀 </p>
+            <DialogMessage />
         </div>
     );
 };

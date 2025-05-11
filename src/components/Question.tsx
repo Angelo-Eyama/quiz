@@ -30,7 +30,7 @@ const Question: React.FC<QuestionProps> = ({ puntuacion, contador, maxContador, 
                 {preguntaActual.opciones.map((opcion, index) => (
                     <button
                         key={index}
-                        className='text-gray-900 bg-white border-gray-300 hover:bg-gray-400 font-medium rounded-lg px-3 py-2 me-4 mb-2'
+                        className='text-gray-900 bg-white border-gray-300 hover:bg-gray-400 border font-medium rounded-lg px-3 py-2 me-4 mb-2'
                         onClick={(e) => handleAnswer(e, opcion.correcta)}
                     >
                         {opcion.texto}
