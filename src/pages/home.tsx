@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { validate } from "../lib/utils";
 import { useNavigate } from "react-router-dom";
+import { Input } from "@/components/ui/input";
 
 const Home: React.FC = () => {
     const [file, setFile] = useState<File | null>(null);
@@ -57,7 +58,7 @@ const Home: React.FC = () => {
                 Sube un archivo JSON con preguntas tipo test para comenzar.
             </p>
             <div className="mb-4">
-                <input
+                <Input
                     type="file"
                     accept=".json"
                     onChange={handleFileChange}
