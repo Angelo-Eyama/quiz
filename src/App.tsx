@@ -12,7 +12,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quiz" element={<Quiz />} />
-        {/* <Route path="/quiz/security" element={<Quiz />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       <FooterPage />

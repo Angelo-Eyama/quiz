@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validate } from "../lib/utils";
+import { validate, getPreguntasSeguridad } from "../lib/utils";
 import { useNavigate } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { DialogMessage } from "@/components/dialogMessage";
@@ -51,6 +51,13 @@ const Home: React.FC = () => {
             alert("Por favor, sube un archivo JSON.");
         }
     };
+    const handleSecurityQuiz = () => {
+        const preguntasSeguridad = getPreguntasSeguridad();
+        console.log(preguntasSeguridad);
+        navigate("/quiz", {
+            state: { quizData: preguntasSeguridad }
+        });
+    };
     return (
         <div className="flex flex-col items-center justify-center min-h-screen p-4">
             <h1 className="text-2xl font-bold mb-4">Bienvenido al Quiz App</h1>
@@ -74,19 +81,11 @@ const Home: React.FC = () => {
             </button>
 
             <p className="mb-4 text-center"> O... puedes prepararte para el examen de Seguridad Informática. 👀 </p>
-            <DialogMessage
-                buttonText="Prueba de Seguridad"
-                dialogTitle="No disponible"
-                dialogDescription={
-                    <>
-                        Hola! Esta sección aún no está disponible ya que no tengo preparadas las preguntas para el examen de Seguridad Informática.
-                        <br /> <br />
-                        Si quieres ayudarme a publicar preguntas para el examen, puedes hacerlo preparando el archivo JSON con las preguntas siguiendo el
-                        formato de ejemplo que puedes encontrar en el <a href="https://github.com/Angelo-Eyama/quiz?tab=readme-ov-file#script-de-python" target="_blank" className="text-blue-500">repositorio de GitHub</a>.
-                        <br />
-                    </>}
-                dialogCloseText="Volver"
-            />
+            <button
+                onClick={handleSecurityQuiz}
+                className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 cursor-pointer mb-2"
+            > Quiz de Seguridad Informática
+            </button>
 
             <div className="fixed top-4 right-4 bg-gray-100 border border-gray-300 rounded-lg shadow-lg">
                 <DialogMessage
