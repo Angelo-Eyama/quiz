@@ -1,0 +1,2204 @@
+{
+    "preguntas": [
+        {
+            "enunciado": "¿Qué sucede en un sistema de autentificación unilateral?",
+            "opciones": [
+                {
+                    "texto": "Los dos usuarios usan la misma contraseña",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ambos lados se autentican mutuamente",
+                    "correcta": false
+                },
+                {
+                    "texto": "Nadie verifica la identidad de nadie",
+                    "correcta": false
+                },
+                {
+                    "texto": "Solo una de las partes verifica la identidad de la otra",
+                    "correcta": true
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Cuál es la responsabilidad principal del CSO (Chief Security Officer)?",
+            "opciones": [
+                {
+                    "texto": "Diseñar logotipos de la empresa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Programar las redes sociales de la empresa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Organizar eventos de entretenimiento para los empleados",
+                    "correcta": false
+                },
+                {
+                    "texto": "Encargarse de la seguridad corporativa, incluyendo empleados, instalaciones y activos",
+                    "correcta": true
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué busca un ataque de Denegación de Servicio (DDoS)?",
+            "opciones": [
+                {
+                    "texto": "Mejorar la velocidad del sitio web",
+                    "correcta": false
+                },
+                {
+                    "texto": "Actualizar automáticamente el contenido del servidor",
+                    "correcta": false
+                },
+                {
+                    "texto": "Hacer copias de seguridad del sistema",
+                    "correcta": false
+                },
+                {
+                    "texto": "Hacer que un servicio web deje de estar disponible mediante muchas solicitudes desde distintos sitios",
+                    "correcta": true
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Cuál es la diferencia principal entre criptografía simétrica y asimétrica?",
+            "opciones": [
+                {
+                    "texto": "La simétrica usa dos claves iguales y la asimétrica no usa claves",
+                    "correcta": false
+                },
+                {
+                    "texto": "La simétrica no necesita claves y la asimétrica tampoco",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ambas usan la misma clave pública para todo",
+                    "correcta": false
+                },
+                {
+                    "texto": "La simétrica usa la misma clave para cifrar y descifrar; la asimétrica usa claves diferentes",
+                    "correcta": true
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Cuál es la diferencia entre una función hash con clave y una sin clave?",
+            "opciones": [
+                {
+                    "texto": "Ambas usan contraseñas visibles para el usuario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las funciones con clave no generan ningún resumen del mensaje",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las funciones sin clave necesitan conexión a internet",
+                    "correcta": false
+                },
+                {
+                    "texto": "Las funciones con clave usan una clave junto al mensaje (MAC), mientras que las sin clave solo usan el mensaje (MDC)",
+                    "correcta": true
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué es un Sistema de Información según el documento?",
+            "opciones": [
+                {
+                    "texto": "Solo el hardware y el software de una empresa",
+                    "correcta": false
+                },
+                {
+                    "texto": "El conjunto de elementos como hardware, software, datos y personas que",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un programa antivirus",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una red de computadoras sin conexión a Internet",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Cuál de estos es un criterio de seguridad según ITSEC?",
+            "opciones": [
+                {
+                    "texto": "Velocidad de procesamiento",
+                    "correcta": false
+                },
+                {
+                    "texto": "Confidencialidad, integridad y disponibilidad",
+                    "correcta": true
+                },
+                {
+                    "texto": "Diseño gráfico atractivo",
+                    "correcta": false
+                },
+                {
+                    "texto": "Compatibilidad con dispositivos móviles",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué tipo de ataque busca saturar un sistema con muchas peticiones para",
+            "opciones": [
+                {
+                    "texto": "Ataque de ingeniería social",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ataque DDoS (Denegación de Servicio Distribuido)",
+                    "correcta": true
+                },
+                {
+                    "texto": "Robo de contraseñas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Fuga de información",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué principio de seguridad dice que los usuarios deben tener solo los",
+            "opciones": [
+                {
+                    "texto": "Principio del Eslabón más Débil",
+                    "correcta": false
+                },
+                {
+                    "texto": "Principio del Menor Privilegio",
+                    "correcta": true
+                },
+                {
+                    "texto": "Principio de Simplicidad",
+                    "correcta": false
+                },
+                {
+                    "texto": "Principio de Participación Universal",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué medida de seguridad usa contraseñas y cifrado para proteger datos?",
+            "opciones": [
+                {
+                    "texto": "Medidas físicas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Medidas lógicas",
+                    "correcta": true
+                },
+                {
+                    "texto": "Medidas administrativas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Medidas legales",
+                    "correcta": false
+                }
+            ],
+            "tema": "Introducción"
+        },
+        {
+            "enunciado": "¿Qué eslabón es considerado el más débil en la cadena de seguridad?",
+            "opciones": [
+                {
+                    "texto": "Los firewalls",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los empleados",
+                    "correcta": true
+                },
+                {
+                    "texto": "Los servidores",
+                    "correcta": false
+                },
+                {
+                    "texto": "Los cifrados",
+                    "correcta": false
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes NO es un beneficio de implementar ISO/IEC 27001?",
+            "opciones": [
+                {
+                    "texto": "Reducción de costos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cumplimiento de reglamentaciones generales y sectoriales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Eliminación permanente de todos los ciberataques",
+                    "correcta": true
+                },
+                {
+                    "texto": "Gestión de riesgos",
+                    "correcta": false
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿Qué principio de seguridad de la información garantiza que los datos solo sean accesibles para quienes estén autorizados?",
+            "opciones": [
+                {
+                    "texto": "Confidencialidad",
+                    "correcta": true
+                },
+                {
+                    "texto": "Disponibilidad",
+                    "correcta": false
+                },
+                {
+                    "texto": "Integridad",
+                    "correcta": false
+                },
+                {
+                    "texto": "Autenticidad",
+                    "correcta": false
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿Qué término se refiere al proceso de codificar información para que solo pueda leerla el legítimo receptor?",
+            "opciones": [
+                {
+                    "texto": "Protección de datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cifrado",
+                    "correcta": true
+                },
+                {
+                    "texto": "Tokenización",
+                    "correcta": false
+                },
+                {
+                    "texto": "Enmascaramiento",
+                    "correcta": false
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿Cuál es un programa malicioso que se une a otros programas normales para causar daño en los sistemas o en los datos?",
+            "opciones": [
+                {
+                    "texto": "Ransomware",
+                    "correcta": false
+                },
+                {
+                    "texto": "Spyware",
+                    "correcta": false
+                },
+                {
+                    "texto": "Virus",
+                    "correcta": true
+                },
+                {
+                    "texto": "Adware",
+                    "correcta": false
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿Cuál es el objetivo principal del estándar ISO/IEC 27001?",
+            "opciones": [
+                {
+                    "texto": "Desarrollar software seguro para móviles",
+                    "correcta": false
+                },
+                {
+                    "texto": "Implantar un sistema de gestión de seguridad de la información",
+                    "correcta": true
+                },
+                {
+                    "texto": "Crear redes inalámbricas más rápidas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Supervisar el rendimiento de hardware de servidores",
+                    "correcta": false
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿En qué ciclo se basa la norma ISO/IEC 27001 para implantar un SGSI?",
+            "opciones": [
+                {
+                    "texto": "Ciclo de Vida del Desarrollo de Software (SDLC)",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ciclo de Mantenimiento Predictivo",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ciclo de Deming o PDCA (Plan-Do-Check-Act)",
+                    "correcta": true
+                },
+                {
+                    "texto": "Ciclo de Gestión Financiera Empresarial",
+                    "correcta": false
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿Qué papel tiene el CISO dentro de una organización?",
+            "opciones": [
+                {
+                    "texto": "Es el responsable de la ciberseguridad y la seguridad de la información",
+                    "correcta": true
+                },
+                {
+                    "texto": "Es responsable de los contratos con proveedores externos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Supervisa la seguridad física de las instalaciones",
+                    "correcta": false
+                },
+                {
+                    "texto": "Dirige el departamento de marketing digital",
+                    "correcta": false
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿Qué es un ataque de Denegación de Servicio (DDoS)?",
+            "opciones": [
+                {
+                    "texto": "Un intento de robar contraseñas mediante correos falsos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un ataque que secuestra datos hasta que se pague un rescate",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un software que recopila datos del usuario sin su permiso",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un ataque que busca hacer un sistema web inaccesible sobrecargándolo de solicitudes",
+                    "correcta": true
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes afirmaciones sobre la seguridad de la información es correcta?",
+            "opciones": [
+                {
+                    "texto": "Se basa únicamente en proteger los datos con antivirus",
+                    "correcta": false
+                },
+                {
+                    "texto": "Solo es responsabilidad del departamento de TI",
+                    "correcta": false
+                },
+                {
+                    "texto": "Consiste en proteger la disponibilidad, integridad y confidencialidad de los datos",
+                    "correcta": true
+                },
+                {
+                    "texto": "Solo aplica a empresas de alta capitalización",
+                    "correcta": false
+                }
+            ],
+            "tema": "Conceptos Preliminares"
+        },
+        {
+            "enunciado": "¿Cuál es la diferencia principal entre criptografía simétrica y asimétrica?",
+            "opciones": [
+                {
+                    "texto": "La simétrica cifra solo texto claro, la asimétrica cifra imágenes",
+                    "correcta": false
+                },
+                {
+                    "texto": "La simétrica utiliza claves públicas, la asimétrica utiliza claves privadas",
+                    "correcta": false
+                },
+                {
+                    "texto": "La simétrica usa la misma clave para cifrar y descifrar, la asimétrica usa claves diferentes",
+                    "correcta": true
+                },
+                {
+                    "texto": "La simétrica es más lenta que la asimétrica",
+                    "correcta": false
+                }
+            ],
+            "tema": "Criptografía"
+        },
+        {
+            "enunciado": "¿Qué es la esteganografía?",
+            "opciones": [
+                {
+                    "texto": "El uso de claves públicas para descifrar mensajes secretos",
+                    "correcta": false
+                },
+                {
+                    "texto": "El cifrado de mensajes mediante sustituciones monoalfabéticas",
+                    "correcta": false
+                },
+                {
+                    "texto": "El ocultamiento de información en un contenedor como imágenes o documentos",
+                    "correcta": true
+                },
+                {
+                    "texto": "La ruptura de códigos usando texto claro elegido",
+                    "correcta": false
+                }
+            ],
+            "tema": "Criptografía"
+        },
+        {
+            "enunciado": "¿Qué tipo de ataque se produce cuando el intruso conoce tanto el texto cifrado como varios textos claros correspondientes?",
+            "opciones": [
+                {
+                    "texto": ". Ataque de solo texto cifrado",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Ataque de texto claro conocido",
+                    "correcta": true
+                },
+                {
+                    "texto": ". Ataque de transposición.",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Ataque de sustitución.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Criptografía"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes es un criterio de seguridad definido por el ITSEC?",
+            "opciones": [
+                {
+                    "texto": ". Velocidad de cifrado",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Redundancia de datos",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Privacidad del código fuente",
+                    "correcta": false
+                },
+                {
+                    "texto": ". No repudio",
+                    "correcta": true
+                }
+            ],
+            "tema": "Criptografía"
+        },
+        {
+            "enunciado": "¿Qué característica distingue a los cifrados por transposición?",
+            "opciones": [
+                {
+                    "texto": ". Sustituyen letras por símbolos según una tabla",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Utilizan varias claves para diferentes bloques de texto",
+                    "correcta": false
+                },
+                {
+                    "texto": ". Reordenan los datos sin cambiarlos por otros",
+                    "correcta": true
+                },
+                {
+                    "texto": ". Insertan datos ocultos en imágenes",
+                    "correcta": false
+                }
+            ],
+            "tema": "Criptografía"
+        },
+        {
+            "enunciado": "¿Qué operación lógica se utiliza en los criptosistemas de cifrado en flujo?",
+            "opciones": [
+                {
+                    "texto": "AND",
+                    "correcta": false
+                },
+                {
+                    "texto": "OR",
+                    "correcta": false
+                },
+                {
+                    "texto": "XOR",
+                    "correcta": true
+                },
+                {
+                    "texto": "NOT",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Qué tres partes forman el cifrado RC4?",
+            "opciones": [
+                {
+                    "texto": "KSA, PRGA y mezcla de texto con flujo de cifrado",
+                    "correcta": true
+                },
+                {
+                    "texto": "AND, XOR y OR",
+                    "correcta": false
+                },
+                {
+                    "texto": "NOT, AND y OR",
+                    "correcta": false
+                },
+                {
+                    "texto": "OFB, CFB y CBC",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Qué estructura sigue el cifrado Feistel?",
+            "opciones": [
+                {
+                    "texto": "Introducción, nudo y desenlace",
+                    "correcta": false
+                },
+                {
+                    "texto": "División de cada bloque en dos mitades y alternancia en cada ronda",
+                    "correcta": true
+                },
+                {
+                    "texto": "Cifrado y descifrado simétrico",
+                    "correcta": false
+                },
+                {
+                    "texto": "Multiplicación de bloques y división de mitades",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Qué problema principal presenta el modo de cifrado ECB?",
+            "opciones": [
+                {
+                    "texto": "Es muy simple",
+                    "correcta": false
+                },
+                {
+                    "texto": "No puede descodificarse sin un libro electrónico",
+                    "correcta": false
+                },
+                {
+                    "texto": "Presenta muchos errores",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se pueden realizar ataques a través de la repetición de bloques similares",
+                    "correcta": true
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Qué modo de cifrado convierte el cifrado de bloques en un cifrado de flujo si se realiza bit a bit?",
+            "opciones": [
+                {
+                    "texto": "AND",
+                    "correcta": false
+                },
+                {
+                    "texto": "OFB",
+                    "correcta": true
+                },
+                {
+                    "texto": "OR",
+                    "correcta": false
+                },
+                {
+                    "texto": "ECB",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Qué significa \"cifrado simétrico\"?",
+            "opciones": [
+                {
+                    "texto": "Que no se usa ninguna clave",
+                    "correcta": false
+                },
+                {
+                    "texto": "Que se usa una clave pública y otra privada",
+                    "correcta": false
+                },
+                {
+                    "texto": "Que se usa la misma clave para cifrar y descifrar",
+                    "correcta": true
+                },
+                {
+                    "texto": "Que solo sirve para imágenes.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Qué tipo de cifrado divide el mensaje en bloques?",
+            "opciones": [
+                {
+                    "texto": "Cifrado en nube",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cifrado en bloque",
+                    "correcta": true
+                },
+                {
+                    "texto": "Cifrado por voz",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cifrado invisible",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Qué hace la operación XOR en criptografía?",
+            "opciones": [
+                {
+                    "texto": "Borra los datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Copia los datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Compara dos bits y devuelve 1 si son distintos",
+                    "correcta": true
+                },
+                {
+                    "texto": "Ordena los bits alfabéticamente",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Quién creó el algoritmo RC4?",
+            "opciones": [
+                {
+                    "texto": "Albert Einstein",
+                    "correcta": false
+                },
+                {
+                    "texto": "Horst Feistel",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ronald Rivest",
+                    "correcta": true
+                },
+                {
+                    "texto": "Alan Turing",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Qué algoritmo fue creado por Ronald Rivest en 1987?",
+            "opciones": [
+                {
+                    "texto": "AES",
+                    "correcta": false
+                },
+                {
+                    "texto": "RC4",
+                    "correcta": true
+                },
+                {
+                    "texto": "Blowfish",
+                    "correcta": false
+                },
+                {
+                    "texto": "IDEA",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Simétrico"
+        },
+        {
+            "enunciado": "¿Quiénes conceptualizaron por primera vez los criptosistemas de clave pública?",
+            "opciones": [
+                {
+                    "texto": "Rivest, Shamir y Adleman",
+                    "correcta": false
+                },
+                {
+                    "texto": "Whitfield Diffie y Martin Hellman",
+                    "correcta": true
+                },
+                {
+                    "texto": "Claude Shannon y Alan Turing",
+                    "correcta": false
+                },
+                {
+                    "texto": "Taher ElGamal",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "En el intercambio de claves de Diffie-Hellman, ¿qué tipo de número debe ser \"p\"?",
+            "opciones": [
+                {
+                    "texto": "Un número primo",
+                    "correcta": true
+                },
+                {
+                    "texto": "Un número impar cualquiera",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un número compuesto",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un número par",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "¿En qué problema matemático se basa la seguridad del algoritmo RSA?",
+            "opciones": [
+                {
+                    "texto": "Logaritmo discreto",
+                    "correcta": false
+                },
+                {
+                    "texto": "Raíz cuadrada modular",
+                    "correcta": false
+                },
+                {
+                    "texto": "Interpolación polinómica",
+                    "correcta": false
+                },
+                {
+                    "texto": "Factorización de números primos",
+                    "correcta": true
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "En el cifrado Rabin, ¿cuántas posibles soluciones hay al descifrar un mensaje?",
+            "opciones": [
+                {
+                    "texto": "Una única solución",
+                    "correcta": false
+                },
+                {
+                    "texto": "Dos posibles soluciones",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cuatro posibles soluciones",
+                    "correcta": true
+                },
+                {
+                    "texto": "Seis posibles soluciones",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "¿Qué propiedad tienen los sistemas de curvas elípticas (ECC) frente a otros criptosistemas?",
+            "opciones": [
+                {
+                    "texto": "Ofrecen la misma seguridad con claves más cortas",
+                    "correcta": true
+                },
+                {
+                    "texto": "Utilizan claves más largas para mayor seguridad",
+                    "correcta": false
+                },
+                {
+                    "texto": "No requieren de clave privada",
+                    "correcta": false
+                },
+                {
+                    "texto": "No requieren el uso de operaciones modulares",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "¿Se puede obtener la clave privada a partir de la clave pública en los cifrados asimétricos?",
+            "opciones": [
+                {
+                    "texto": "No, es imposible",
+                    "correcta": false
+                },
+                {
+                    "texto": "Sí, pero es complicado y depende del criptosistema utilizado",
+                    "correcta": true
+                },
+                {
+                    "texto": "Sí, fácilmente debido a la baja seguridad de estos cifrados",
+                    "correcta": false
+                },
+                {
+                    "texto": "No, excepto en el cifrado Williams",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "Los criptosistemas de clave pública, comparados con los de clave secreta, son:",
+            "opciones": [
+                {
+                    "texto": "Más seguros",
+                    "correcta": false
+                },
+                {
+                    "texto": "Menos seguros",
+                    "correcta": false
+                },
+                {
+                    "texto": "Igual de seguros, independientemente del número de bits de la clave",
+                    "correcta": false
+                },
+                {
+                    "texto": "Igual de seguros, dependiendo del número de bits de la clave",
+                    "correcta": true
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "¿En qué problema se basa el cifrado ElGamal?",
+            "opciones": [
+                {
+                    "texto": "Factorización de números primos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Raíces cuadradas módulo un número compuesto",
+                    "correcta": false
+                },
+                {
+                    "texto": "Logaritmo discreto",
+                    "correcta": true
+                },
+                {
+                    "texto": "Retículos",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "¿Cuál es la ventaja de los criptosistemas de curvas elípticas?",
+            "opciones": [
+                {
+                    "texto": "La multiplicación se convierte en una suma de puntos",
+                    "correcta": false
+                },
+                {
+                    "texto": "La exponenciación se convierte en una multiplicación de un número por un punto",
+                    "correcta": false
+                },
+                {
+                    "texto": "Permite usar longitudes de clave más cortas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Todas son correctas",
+                    "correcta": true
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "En el algoritmo RSA, ¿qué condición deben cumplir los valores del exponente público e y ϕ(n) (la función totiente de n)?",
+            "opciones": [
+                {
+                    "texto": "e debe ser coprimo de ϕ(n)",
+                    "correcta": true
+                },
+                {
+                    "texto": "e debe ser mayor que ϕ(n)",
+                    "correcta": false
+                },
+                {
+                    "texto": "e debe ser menor que ϕ(n)",
+                    "correcta": false
+                },
+                {
+                    "texto": "e debe ser igual a ϕ(n)",
+                    "correcta": false
+                }
+            ],
+            "tema": "Cifrado Asimétrico"
+        },
+        {
+            "enunciado": "Las firmas digitales deben ser:",
+            "opciones": [
+                {
+                    "texto": "Únicas y falsificables",
+                    "correcta": false
+                },
+                {
+                    "texto": "Únicas, infalsificables, verificables, innegables y viables",
+                    "correcta": true
+                },
+                {
+                    "texto": "Únicas, infalsificables, verificables, innegables y variables",
+                    "correcta": false
+                },
+                {
+                    "texto": "Únicas, falsificables e inverificables",
+                    "correcta": false
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "Las funciones hash deben presentar las siguientes características:",
+            "opciones": [
+                {
+                    "texto": "Unidireccional, expansión, facilidad de calculo y vulnerable",
+                    "correcta": false
+                },
+                {
+                    "texto": "Bidireccional, compresión, dificultad de calculo, difusión y resistencias a colisiones",
+                    "correcta": false
+                },
+                {
+                    "texto": "Unidireccional, compresión, facilidad de calculo, difusión y resistencias a colisiones",
+                    "correcta": true
+                },
+                {
+                    "texto": "Unidireccional, compresión, complejidad máxima de cálculo, difusión y vulnerable",
+                    "correcta": false
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "Algunas de las funciones hash mas conocidas son:",
+            "opciones": [
+                {
+                    "texto": "DM2, DM5, DM4 y Prolog",
+                    "correcta": false
+                },
+                {
+                    "texto": "Chat gpt, copilot y MD5",
+                    "correcta": false
+                },
+                {
+                    "texto": "Python, C y Prolog",
+                    "correcta": false
+                },
+                {
+                    "texto": "MD2, MD5, MD4 y SHA-1",
+                    "correcta": true
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "Cual de las siguientes respuestas sobre certificados digitales es FALSA:",
+            "opciones": [
+                {
+                    "texto": "Lo certificados digitales no tienen clave pública",
+                    "correcta": true
+                },
+                {
+                    "texto": "Es firmado por una Autoridad de Certificación (AC)",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un certificado digital contiene diversos datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Tanto el emisor como el receptor confían en la Autoridad de Certificación (AC)",
+                    "correcta": false
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "En el sistema de firma electrónica, cada persona dispone de un par de calves estas son:",
+            "opciones": [
+                {
+                    "texto": "La clave privada que es conocida por las demás personas y la clave publica que únicamente el conoce.",
+                    "correcta": false
+                },
+                {
+                    "texto": "La clave cerrada y publica",
+                    "correcta": false
+                },
+                {
+                    "texto": "La clave privada y anónima",
+                    "correcta": false
+                },
+                {
+                    "texto": "La clave privada y publica",
+                    "correcta": true
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "¿Qué convierte un mensaje en un valor de longitud fija?",
+            "opciones": [
+                {
+                    "texto": "Firma digital",
+                    "correcta": false
+                },
+                {
+                    "texto": "Certificado digital",
+                    "correcta": false
+                },
+                {
+                    "texto": "Función hash",
+                    "correcta": true
+                },
+                {
+                    "texto": "Clave pública",
+                    "correcta": false
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "¿Con qué se guarda de manera segura una clave privada?",
+            "opciones": [
+                {
+                    "texto": "En una carpeta pública",
+                    "correcta": false
+                },
+                {
+                    "texto": "En un dispositivo seguro",
+                    "correcta": true
+                },
+                {
+                    "texto": "En un correo electrónico",
+                    "correcta": false
+                },
+                {
+                    "texto": "En una red social",
+                    "correcta": false
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "¿Qué tipo de firma usa un certificado electrónico emitido por una autoridad reconocida?",
+            "opciones": [
+                {
+                    "texto": "Firma escrita.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Firma simple.",
+                    "correcta": false
+                },
+                {
+                    "texto": "Firma electrónica cualificada",
+                    "correcta": true
+                },
+                {
+                    "texto": "Firma oral.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "¿En qué categoría se encuentra el DNI electrónico?",
+            "opciones": [
+                {
+                    "texto": "Certificado de sello de empresa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Certificado de tarjeta",
+                    "correcta": true
+                },
+                {
+                    "texto": "Certificado de servidor",
+                    "correcta": false
+                },
+                {
+                    "texto": "Certificado de apoderado",
+                    "correcta": false
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "¿Qué garantiza la clave pública de un certificado?",
+            "opciones": [
+                {
+                    "texto": "El cifrado del mensaje",
+                    "correcta": false
+                },
+                {
+                    "texto": "La confidencialidad del mensaje",
+                    "correcta": false
+                },
+                {
+                    "texto": "La identidad del firmante",
+                    "correcta": true
+                },
+                {
+                    "texto": "El tamaño del archivo",
+                    "correcta": false
+                }
+            ],
+            "tema": "Funciones Hash"
+        },
+        {
+            "enunciado": "¿Qué es la autenticación en seguridad informática?",
+            "opciones": [
+                {
+                    "texto": "El proceso de asignar contraseñas a usuarios",
+                    "correcta": false
+                },
+                {
+                    "texto": "El proceso de encriptar datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "El proceso mediante el cual un usuario se identifica de forma inequívoca",
+                    "correcta": true
+                },
+                {
+                    "texto": "El proceso de autorizar acceso a recursos",
+                    "correcta": false
+                }
+            ],
+            "tema": "Autenticación"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes NO es un requisito que debe cumplir un sistema de autenticación?",
+            "opciones": [
+                {
+                    "texto": "Fiabilidad",
+                    "correcta": false
+                },
+                {
+                    "texto": "Viabilidad económica",
+                    "correcta": false
+                },
+                {
+                    "texto": "Unidireccionalidad",
+                    "correcta": true
+                },
+                {
+                    "texto": "Robustez frente ataques",
+                    "correcta": false
+                }
+            ],
+            "tema": "Autenticación"
+        },
+        {
+            "enunciado": "¿Qué factor de autenticación corresponde a algo que el usuario sabe?",
+            "opciones": [
+                {
+                    "texto": "Huella digital",
+                    "correcta": false
+                },
+                {
+                    "texto": "Token físico",
+                    "correcta": false
+                },
+                {
+                    "texto": "Contraseña o PIN",
+                    "correcta": true
+                },
+                {
+                    "texto": "Localización del dispositivo",
+                    "correcta": false
+                }
+            ],
+            "tema": "Autenticación"
+        },
+        {
+            "enunciado": "¿Qué es la autenticación fuerte (MFA)?",
+            "opciones": [
+                {
+                    "texto": "Autenticación usando solo contraseñas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Autenticación basada únicamente en factores biométricos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Autenticación que combina al menos dos factores de autenticación",
+                    "correcta": true
+                },
+                {
+                    "texto": "Autenticación donde interviene una sola parte",
+                    "correcta": false
+                }
+            ],
+            "tema": "Autenticación"
+        },
+        {
+            "enunciado": "¿Qué tipo de autentificación implica que ambas partes deben validarse mutuamente?",
+            "opciones": [
+                {
+                    "texto": "Directa",
+                    "correcta": false
+                },
+                {
+                    "texto": "Indirecta",
+                    "correcta": false
+                },
+                {
+                    "texto": "Unilateral",
+                    "correcta": false
+                },
+                {
+                    "texto": "Mutua",
+                    "correcta": true
+                }
+            ],
+            "tema": "Autenticación"
+        },
+        {
+            "enunciado": "¿Qué es un correo electrónico seguro?",
+            "opciones": [
+                {
+                    "texto": "Un correo enviado solo los lunes",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un correo que protege la información y evita accesos no autorizados",
+                    "correcta": true
+                },
+                {
+                    "texto": "Un correo con emojis en el asunto",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un correo que se borra solo",
+                    "correcta": false
+                }
+            ],
+            "tema": "Email Seguro"
+        },
+        {
+            "enunciado": "¿Qué se debe hacer para proteger tu cuenta de correo?",
+            "opciones": [
+                {
+                    "texto": "Usar una contraseña fuerte y cambiarla con regularidad",
+                    "correcta": true
+                },
+                {
+                    "texto": "Usar la misma contraseña en todas las cuentas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Compartir la contraseña con amigos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Escribir la contraseña en un papel visible",
+                    "correcta": false
+                }
+            ],
+            "tema": "Email Seguro"
+        },
+        {
+            "enunciado": "¿Qué es el phishing?",
+            "opciones": [
+                {
+                    "texto": "Un virus que borra todos tus correos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un tipo de correo basura sin peligro",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un intento de engaño para robar datos personales",
+                    "correcta": true
+                },
+                {
+                    "texto": "Un filtro de correos no deseados",
+                    "correcta": false
+                }
+            ],
+            "tema": "Email Seguro"
+        },
+        {
+            "enunciado": "¿Qué debes hacer si recibes un correo con un enlace sospechoso?",
+            "opciones": [
+                {
+                    "texto": "Hacer clic para ver qué es",
+                    "correcta": false
+                },
+                {
+                    "texto": "Compartirlo en redes sociales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Compartirlo con amigos",
+                    "correcta": false
+                },
+                {
+                    "texto": "No hacer clic y reportarlo como sospechoso",
+                    "correcta": true
+                }
+            ],
+            "tema": "Email Seguro"
+        },
+        {
+            "enunciado": "¿Cómo puedes saber si un correo es confiable?",
+            "opciones": [
+                {
+                    "texto": "Porque tiene muchos colores",
+                    "correcta": false
+                },
+                {
+                    "texto": "Porque dice que ganaste un premio",
+                    "correcta": false
+                },
+                {
+                    "texto": "Porque viene de una dirección conocida y verificada",
+                    "correcta": true
+                },
+                {
+                    "texto": "Porque llegó a tu bandeja de entrada",
+                    "correcta": false
+                }
+            ],
+            "tema": "Email Seguro"
+        },
+        {
+            "enunciado": "¿Qué protocolo proporciona acceso remoto cifrado y seguro a través de la red?",
+            "opciones": [
+                {
+                    "texto": "FTP",
+                    "correcta": false
+                },
+                {
+                    "texto": "Telnet",
+                    "correcta": false
+                },
+                {
+                    "texto": "SSH",
+                    "correcta": true
+                },
+                {
+                    "texto": "HTTP",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Qué mecanismo proporciona autenticación, integridad y confidencialidad en IPSec?",
+            "opciones": [
+                {
+                    "texto": "AH",
+                    "correcta": false
+                },
+                {
+                    "texto": "VPN",
+                    "correcta": false
+                },
+                {
+                    "texto": "ESP",
+                    "correcta": true
+                },
+                {
+                    "texto": "TLS",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Cuál es el puerto TCP por defecto utilizado por el protocolo SSH?",
+            "opciones": [
+                {
+                    "texto": "21",
+                    "correcta": false
+                },
+                {
+                    "texto": "80",
+                    "correcta": false
+                },
+                {
+                    "texto": "443",
+                    "correcta": false
+                },
+                {
+                    "texto": "22",
+                    "correcta": true
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Qué tipo de cifrado permite que los datos sean descifrados únicamente por el destinatario final, sin intervención de intermediarios?",
+            "opciones": [
+                {
+                    "texto": "Cifrado en tránsito",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cifrado SSL",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cifrado extremo a extremo",
+                    "correcta": true
+                },
+                {
+                    "texto": "Cifrado IPsec",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Qué componente en IPSec se encarga de definir cómo se comunicarán de forma segura dos entidades?",
+            "opciones": [
+                {
+                    "texto": "Protocolo ESP",
+                    "correcta": false
+                },
+                {
+                    "texto": "Protocolo SSL",
+                    "correcta": false
+                },
+                {
+                    "texto": "Asociación de Seguridad (SA)",
+                    "correcta": true
+                },
+                {
+                    "texto": "Túnel VPN",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes ataques se basa en interceptar la comunicación entre dos partes para manipularla o espiarla?",
+            "opciones": [
+                {
+                    "texto": "Ataque DoS",
+                    "correcta": false
+                },
+                {
+                    "texto": "Sniffer",
+                    "correcta": false
+                },
+                {
+                    "texto": "Suplantación de IP",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ataque Man-in-the-Middle",
+                    "correcta": true
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Cuál es el protocolo que reemplaza a SSL con mejoras en seguridad?",
+            "opciones": [
+                {
+                    "texto": "SSH",
+                    "correcta": false
+                },
+                {
+                    "texto": "TLS",
+                    "correcta": true
+                },
+                {
+                    "texto": "IPsec",
+                    "correcta": false
+                },
+                {
+                    "texto": "L2TP",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Qué puerto utiliza por defecto el protocolo SSH para establecer conexiones seguras?",
+            "opciones": [
+                {
+                    "texto": "TCP 21",
+                    "correcta": false
+                },
+                {
+                    "texto": "TCP 23",
+                    "correcta": false
+                },
+                {
+                    "texto": "TCP 22",
+                    "correcta": true
+                },
+                {
+                    "texto": "TCP 80",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes elementos proporciona integridad, autenticación y confidencialidad en IPsec?",
+            "opciones": [
+                {
+                    "texto": "ACL",
+                    "correcta": false
+                },
+                {
+                    "texto": "AH",
+                    "correcta": false
+                },
+                {
+                    "texto": "ESP",
+                    "correcta": true
+                },
+                {
+                    "texto": "IDS",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Qué tipo de cifrado permite que los datos solo sean descifrables por el destinatario final, sin que ningún intermediario los lea?",
+            "opciones": [
+                {
+                    "texto": "Cifrado en tránsito",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cifrado de extremo a extremo",
+                    "correcta": true
+                },
+                {
+                    "texto": "Cifrado simétrico",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cifrado de túnel",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad IP"
+        },
+        {
+            "enunciado": "¿Cuál es una de las mejores defensas contra ataques XSS?",
+            "opciones": [
+                {
+                    "texto": "Bloquear las cookies de sesión de los usuarios",
+                    "correcta": false
+                },
+                {
+                    "texto": "Eliminar o deshabilitar etiquetas que permiten ejecutar código como <script>",
+                    "correcta": true
+                },
+                {
+                    "texto": "Usar solo bases de datos cifradas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Implementar sistemas biométricos",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad Web"
+        },
+        {
+            "enunciado": "¿Qué permite hacer un ataque de Inyección SQL?",
+            "opciones": [
+                {
+                    "texto": "Enviar correos falsos desde el servidor",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ejecutar código SQL arbitrario que puede acceder, modificar o borrar datos",
+                    "correcta": true
+                },
+                {
+                    "texto": "Sobrecargar el servidor con tráfico malicioso",
+                    "correcta": false
+                },
+                {
+                    "texto": "Cambiar el contenido visual del sitio",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad Web"
+        },
+        {
+            "enunciado": "¿Qué caracteriza a un ataque CSRF (Cross Site Request Forgery)?",
+            "opciones": [
+                {
+                    "texto": "Inyecta código malicioso directamente en la base de datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Realiza acciones con las credenciales de un usuario sin su consentimiento",
+                    "correcta": true
+                },
+                {
+                    "texto": "Redirige al usuario a sitios de phishing",
+                    "correcta": false
+                },
+                {
+                    "texto": "Expone archivos del sistema del servidor",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad Web"
+        },
+        {
+            "enunciado": "¿Qué es el Clickjacking?",
+            "opciones": [
+                {
+                    "texto": "El uso de técnicas para romper contraseñas",
+                    "correcta": false
+                },
+                {
+                    "texto": "El secuestro de clics del usuario redirigiéndolos a elementos ocultos",
+                    "correcta": true
+                },
+                {
+                    "texto": "La descarga oculta de archivos maliciosos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un tipo de ataque que intercepta paquetes en red",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad Web"
+        },
+        {
+            "enunciado": "¿Qué práctica es una indicación básica para la seguridad web?",
+            "opciones": [
+                {
+                    "texto": "Deshabilitar HTTPS para aumentar la velocidad",
+                    "correcta": false
+                },
+                {
+                    "texto": "Aceptar todos los archivos subidos sin verificación",
+                    "correcta": false
+                },
+                {
+                    "texto": "No confiar en ningún dato recibido del navegador y desinfectarlo",
+                    "correcta": true
+                },
+                {
+                    "texto": "Permitir comandos del sistema desde formularios web",
+                    "correcta": false
+                }
+            ],
+            "tema": "Seguridad Web"
+        },
+        {
+            "enunciado": "¿Qué es un troyano?",
+            "opciones": [
+                {
+                    "texto": "Son programas que se ocultan o esconden en programas legítimos, para proporcionar acceso no autorizado al sistema infectado",
+                    "correcta": true
+                },
+                {
+                    "texto": "Son programas que se instalan de forma normal en nuestro equipo, para realizar diversas tareas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son programas esenciales los cuales sirven como base para programas mucho mas grandes",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son programas benignos los cuales instalan dependencias necesarias de otros programas",
+                    "correcta": false
+                }
+            ],
+            "tema": "Malware"
+        },
+        {
+            "enunciado": "¿Qué es un gusano?",
+            "opciones": [
+                {
+                    "texto": "Son un tipo de código anti malicioso el cual sirve para bloquear posibles ataques de virus",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es un tipo de código que permite bloquear sitios malicioso en internet",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son un tipo de código malicioso que se diseñó originalmente par su propagación a través de redes de comunicaciones, mediante el uso de servicios com el correo electrónico",
+                    "correcta": true
+                },
+                {
+                    "texto": "Son un tipo de código malicioso que se utiliza comúnmente en la transmisión de archivos por internet",
+                    "correcta": false
+                }
+            ],
+            "tema": "Malware"
+        },
+        {
+            "enunciado": "¿Qué es un Spyware?",
+            "opciones": [
+                {
+                    "texto": "Son programas destinados a la recolección de infromación sobre la actividad del usuario",
+                    "correcta": true
+                },
+                {
+                    "texto": "Son programas que se usan para calcular grandes ecuacion matemáticas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son programas que se instalan en un equipo y minan criptomonedas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son programas que muestran divertidos fondos de pantalla",
+                    "correcta": false
+                }
+            ],
+            "tema": "Malware"
+        },
+        {
+            "enunciado": "¿Qué es un Adware?",
+            "opciones": [
+                {
+                    "texto": "Son programas que te ocultan la publicidad permitiendo librarte de ella",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son programas diseñados para mostar publicidad a el usuario sin que este quiera",
+                    "correcta": true
+                },
+                {
+                    "texto": "Son programas que instalan otros programas sin que el usuario se entere",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son programas que instalan juegos en tu equipo de forma que el usuario no se entera",
+                    "correcta": false
+                }
+            ],
+            "tema": "Malware"
+        },
+        {
+            "enunciado": "¿Qué es un virus?",
+            "opciones": [
+                {
+                    "texto": "Son programas que permiten organizar y gestionar la información de un equipo",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son programas que al ejecutarse hace que el equipo donde se ejecuta incremente su velocidad de forma notable",
+                    "correcta": false
+                },
+                {
+                    "texto": "Es un programa que se instala en segundo plano para gestionar automáticamente las actualizaciones de firmware de todos los dispositivos conectados",
+                    "correcta": false
+                },
+                {
+                    "texto": "Son programas capaces de crear copias de sí mismos, de forma que anexan estas copias a otros programas legítimos o en zonas especiales de soportes de almacenamiento",
+                    "correcta": true
+                }
+            ],
+            "tema": "Malware"
+        },
+        {
+            "enunciado": "¿Qué es el sniffing en el contexto de la seguridad informática?",
+            "opciones": [
+                {
+                    "texto": "Un tipo de firewall avanzado",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un proceso de cifrado de datos",
+                    "correcta": false
+                },
+                {
+                    "texto": "La práctica de capturar tramas de red mediante software especializado",
+                    "correcta": true
+                },
+                {
+                    "texto": "Un protocolo de comunicación segura",
+                    "correcta": false
+                }
+            ],
+            "tema": "Sniffing"
+        },
+        {
+            "enunciado": "¿Cuál es la característica principal del sniffing pasivo?",
+            "opciones": [
+                {
+                    "texto": "Inunda la red con tráfico falso",
+                    "correcta": false
+                },
+                {
+                    "texto": "Modifica las tramas capturadas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Interrumpe el tráfico entre nodos",
+                    "correcta": false
+                },
+                {
+                    "texto": "El atacante permanece inactivo mientras captura datos",
+                    "correcta": true
+                }
+            ],
+            "tema": "Sniffing"
+        },
+        {
+            "enunciado": "¿Cuál es el objetivo del sniffing activo?",
+            "opciones": [
+                {
+                    "texto": "Eliminar registros de acceso en la red",
+                    "correcta": false
+                },
+                {
+                    "texto": "Enviar spam a todos los usuarios conectados",
+                    "correcta": false
+                },
+                {
+                    "texto": "Inundar la memoria CAM del switch para redirigir el tráfico",
+                    "correcta": true
+                },
+                {
+                    "texto": "Bloquear el acceso a servidores DNS",
+                    "correcta": false
+                }
+            ],
+            "tema": "Sniffing"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes NO es una utilidad del sniffing?",
+            "opciones": [
+                {
+                    "texto": "Captura de contraseñas en texto claro",
+                    "correcta": false
+                },
+                {
+                    "texto": "Creación de malware personalizado ()",
+                    "correcta": true
+                },
+                {
+                    "texto": "Detección de intrusos",
+                    "correcta": false
+                },
+                {
+                    "texto": "Medición del tráfico de red",
+                    "correcta": false
+                }
+            ],
+            "tema": "Sniffing"
+        },
+        {
+            "enunciado": "¿Qué permite el sniffing a los desarrolladores de aplicaciones cliente-servidor?",
+            "opciones": [
+                {
+                    "texto": "Codificar automáticamente el tráfico",
+                    "correcta": false
+                },
+                {
+                    "texto": "Rediseñar el hardware de red",
+                    "correcta": false
+                },
+                {
+                    "texto": "Analizar la información real que se transmite ()",
+                    "correcta": true
+                },
+                {
+                    "texto": "Evitar ataques de denegación de servicio",
+                    "correcta": false
+                }
+            ],
+            "tema": "Sniffing"
+        },
+        {
+            "enunciado": "¿Qué es la ingeniería social en el contexto de la ciberseguridad?",
+            "opciones": [
+                {
+                    "texto": "Un tipo de software malicioso",
+                    "correcta": false
+                },
+                {
+                    "texto": "Un conjunto de técnicas para mejorar redes sociales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Una manipulación psicológica para engañar a los usuarios",
+                    "correcta": true
+                },
+                {
+                    "texto": "Un sistema de cifrado de datos",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería Social"
+        },
+        {
+            "enunciado": "¿Cuál es uno de los métodos más comunes para realizar ataques de ingeniería social?",
+            "opciones": [
+                {
+                    "texto": "Llamadas telefónicas desde números privados",
+                    "correcta": false
+                },
+                {
+                    "texto": "Envío de correos electrónicos y SMS maliciosos",
+                    "correcta": true
+                },
+                {
+                    "texto": "Publicaciones en redes sociales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Visitas físicas a las oficinas",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería Social"
+        },
+        {
+            "enunciado": "¿Qué se realiza en la fase de recolección de información de un ataque de ingeniería social?",
+            "opciones": [
+                {
+                    "texto": "Se realiza un ataque directo al sistema",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se recolectan credenciales de acceso desde bases de datos públicas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Se acumula información sobre la víctima para planificar el engaño",
+                    "correcta": true
+                },
+                {
+                    "texto": "Se lanza un ataque de denegación de servicio",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería Social"
+        },
+        {
+            "enunciado": "¿Qué objetivo tiene el ciberdelincuente al manipular psicológicamente a la víctima?",
+            "opciones": [
+                {
+                    "texto": "Obtener dinero directamente",
+                    "correcta": false
+                },
+                {
+                    "texto": "Ganar seguidores en redes sociales",
+                    "correcta": false
+                },
+                {
+                    "texto": "Obtener información confidencial o provocar una acción",
+                    "correcta": true
+                },
+                {
+                    "texto": "Crear una reputación en el entorno laboral.",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería Social"
+        },
+        {
+            "enunciado": "¿Qué se busca en la fase de “salida” de un ataque de ingeniería social?",
+            "opciones": [
+                {
+                    "texto": "Recuperar los archivos cifrados",
+                    "correcta": false
+                },
+                {
+                    "texto": "Eliminar cualquier sospecha y evitar ser detectado",
+                    "correcta": true
+                },
+                {
+                    "texto": "Compartir los resultados con otros atacantes",
+                    "correcta": false
+                },
+                {
+                    "texto": "Dejar un mensaje para advertir a la víctima",
+                    "correcta": false
+                }
+            ],
+            "tema": "Ingeniería Social"
+        },
+        {
+            "enunciado": "¿Cuál es el propósito principal de un firewall?",
+            "opciones": [
+                {
+                    "texto": "Aumentar la velocidad de conexión a Internet",
+                    "correcta": false
+                },
+                {
+                    "texto": "Compartir archivos entre redes privadas",
+                    "correcta": false
+                },
+                {
+                    "texto": "Restringir el tráfico de red según reglas definidas",
+                    "correcta": true
+                },
+                {
+                    "texto": "Crear copias de seguridad automáticas",
+                    "correcta": false
+                }
+            ],
+            "tema": "Firewall"
+        },
+        {
+            "enunciado": "¿Qué característica distingue a un firewall de inspección con estado?",
+            "opciones": [
+                {
+                    "texto": "Supervisa y recuerda el estado de las conexiones",
+                    "correcta": true
+                },
+                {
+                    "texto": "Solo filtra tráfico saliente",
+                    "correcta": false
+                },
+                {
+                    "texto": "Funciona únicamente en la capa física del modelo OSI",
+                    "correcta": false
+                },
+                {
+                    "texto": "No permite la personalización de reglas",
+                    "correcta": false
+                }
+            ],
+            "tema": "Firewall"
+        },
+        {
+            "enunciado": "¿Qué tipo de firewall opera en la capa de aplicación?",
+            "opciones": [
+                {
+                    "texto": "Firewall de filtrado estático",
+                    "correcta": false
+                },
+                {
+                    "texto": "Firewall de inspección con estado",
+                    "correcta": false
+                },
+                {
+                    "texto": "Firewall de puerta de enlace de nivel de circuito",
+                    "correcta": false
+                },
+                {
+                    "texto": "Firewall proxy",
+                    "correcta": true
+                }
+            ],
+            "tema": "Firewall"
+        },
+        {
+            "enunciado": "¿Qué componente utiliza el firewall para identificar el origen y destino del tráfico?",
+            "opciones": [
+                {
+                    "texto": "Dirección MAC y nombre del dispositivo",
+                    "correcta": false
+                },
+                {
+                    "texto": "Dirección IP y puertos",
+                    "correcta": true
+                },
+                {
+                    "texto": "Contraseña y usuario",
+                    "correcta": false
+                },
+                {
+                    "texto": "Fecha y hora de la conexión",
+                    "correcta": false
+                }
+            ],
+            "tema": "Firewall"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes es una posible aplicación de los firewalls?",
+            "opciones": [
+                {
+                    "texto": "Mejorar la resolución de pantalla",
+                    "correcta": false
+                },
+                {
+                    "texto": "Controlar el acceso a contenido web para niños",
+                    "correcta": true
+                },
+                {
+                    "texto": "Aumentar la memoria RAM del sistema",
+                    "correcta": false
+                },
+                {
+                    "texto": "Reducir el consumo eléctrico del router",
+                    "correcta": false
+                }
+            ],
+            "tema": "Firewall"
+        }
+    ]
+}
